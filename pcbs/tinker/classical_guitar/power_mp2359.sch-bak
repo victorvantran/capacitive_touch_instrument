@@ -176,7 +176,7 @@ Wire Wire Line
 	3600 3300 3850 3300
 Connection ~ 3000 3300
 Text Notes 650  750  0    50   ~ 0
-Power Circuit
+Power Circuit\ncredits to Phil's Lab
 $Comp
 L Device:LED_Small D?
 U 1 1 61604297

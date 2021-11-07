@@ -375,11 +375,7 @@ Wire Notes Line
 Text Notes 550  3900 0    50   ~ 0
 Capacitive Touch
 Wire Notes Line
-	500  21000 8450 21000
-Wire Notes Line
 	500  500  500  21000
-Wire Notes Line
-	8450 500  8450 21000
 $Comp
 L Device:R_Small Rs1
 U 1 1 61F2AF4A
@@ -851,302 +847,6 @@ Wire Wire Line
 	1900 17500 1600 17500
 Wire Wire Line
 	1600 17500 1600 17600
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe1
-U 1 1 61F2AE41
-P 7400 15850
-F 0 "JPe1" V 7400 15900 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7445 15918 50  0001 L CNN
-F 2 "" H 7400 15850 50  0001 C CNN
-F 3 "~" H 7400 15850 50  0001 C CNN
-	1    7400 15850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E1
-U 1 1 61F2AE3B
-P 7700 15700
-F 0 "E1" V 7950 15600 50  0000 R CNN
-F 1 "Electrode" V 7850 15700 50  0000 R CNN
-F 2 "" H 7700 15700 50  0001 C CNN
-F 3 "" H 7700 15700 50  0001 C CNN
-	1    7700 15700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe2
-U 1 1 61F2AE35
-P 7400 16300
-F 0 "JPe2" V 7400 16350 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7445 16368 50  0001 L CNN
-F 2 "" H 7400 16300 50  0001 C CNN
-F 3 "~" H 7400 16300 50  0001 C CNN
-	1    7400 16300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E2
-U 1 1 61F2AE2F
-P 7700 16150
-F 0 "E2" V 7950 16050 50  0000 R CNN
-F 1 "Electrode" V 7850 16150 50  0000 R CNN
-F 2 "" H 7700 16150 50  0001 C CNN
-F 3 "" H 7700 16150 50  0001 C CNN
-	1    7700 16150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E3
-U 1 1 61F2AE29
-P 7700 16600
-F 0 "E3" V 7950 16500 50  0000 R CNN
-F 1 "Electrode" V 7850 16600 50  0000 R CNN
-F 2 "" H 7700 16600 50  0001 C CNN
-F 3 "" H 7700 16600 50  0001 C CNN
-	1    7700 16600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe3
-U 1 1 61F2AE23
-P 7400 16750
-F 0 "JPe3" V 7400 16800 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7445 16818 50  0001 L CNN
-F 2 "" H 7400 16750 50  0001 C CNN
-F 3 "~" H 7400 16750 50  0001 C CNN
-	1    7400 16750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe4
-U 1 1 61F2AE1D
-P 7400 17200
-F 0 "JPe4" V 7400 17250 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7445 17268 50  0001 L CNN
-F 2 "" H 7400 17200 50  0001 C CNN
-F 3 "~" H 7400 17200 50  0001 C CNN
-	1    7400 17200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E4
-U 1 1 61F2AE17
-P 7700 17050
-F 0 "E4" V 7950 16950 50  0000 R CNN
-F 1 "Electrode" V 7850 17050 50  0000 R CNN
-F 2 "" H 7700 17050 50  0001 C CNN
-F 3 "" H 7700 17050 50  0001 C CNN
-	1    7700 17050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E5
-U 1 1 61F2AE11
-P 7700 17500
-F 0 "E5" V 7950 17400 50  0000 R CNN
-F 1 "Electrode" V 7850 17500 50  0000 R CNN
-F 2 "" H 7700 17500 50  0001 C CNN
-F 3 "" H 7700 17500 50  0001 C CNN
-	1    7700 17500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe5
-U 1 1 61F2AE0B
-P 7400 17650
-F 0 "JPe5" V 7400 17700 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7445 17718 50  0001 L CNN
-F 2 "" H 7400 17650 50  0001 C CNN
-F 3 "~" H 7400 17650 50  0001 C CNN
-	1    7400 17650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe6
-U 1 1 61F2AE05
-P 7400 18150
-F 0 "JPe6" V 7400 18200 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7445 18218 50  0001 L CNN
-F 2 "" H 7400 18150 50  0001 C CNN
-F 3 "~" H 7400 18150 50  0001 C CNN
-	1    7400 18150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E7
-U 1 1 61F2ADF9
-P 7700 18450
-F 0 "E7" V 7950 18350 50  0000 R CNN
-F 1 "Electrode" V 7850 18450 50  0000 R CNN
-F 2 "" H 7700 18450 50  0001 C CNN
-F 3 "" H 7700 18450 50  0001 C CNN
-	1    7700 18450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe7
-U 1 1 61F2ADF3
-P 7400 18600
-F 0 "JPe7" V 7400 18650 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7445 18668 50  0001 L CNN
-F 2 "" H 7400 18600 50  0001 C CNN
-F 3 "~" H 7400 18600 50  0001 C CNN
-	1    7400 18600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe8
-U 1 1 61F2ADED
-P 7400 19050
-F 0 "JPe8" V 7400 19100 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7445 19118 50  0001 L CNN
-F 2 "" H 7400 19050 50  0001 C CNN
-F 3 "~" H 7400 19050 50  0001 C CNN
-	1    7400 19050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E8
-U 1 1 61F2ADE7
-P 7700 18900
-F 0 "E8" V 7950 18800 50  0000 R CNN
-F 1 "Electrode" V 7850 18900 50  0000 R CNN
-F 2 "" H 7700 18900 50  0001 C CNN
-F 3 "" H 7700 18900 50  0001 C CNN
-	1    7700 18900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E9
-U 1 1 61F2ADE1
-P 7700 19350
-F 0 "E9" V 7950 19250 50  0000 R CNN
-F 1 "Electrode" V 7850 19350 50  0000 R CNN
-F 2 "" H 7700 19350 50  0001 C CNN
-F 3 "" H 7700 19350 50  0001 C CNN
-	1    7700 19350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe9
-U 1 1 61F2ADDB
-P 7400 19500
-F 0 "JPe9" V 7400 19550 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7445 19568 50  0001 L CNN
-F 2 "" H 7400 19500 50  0001 C CNN
-F 3 "~" H 7400 19500 50  0001 C CNN
-	1    7400 19500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x10_Male Je1
-U 1 1 61F2ADD5
-P 6600 17850
-F 0 "Je1" H 6708 18431 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 6708 18340 50  0000 C CNN
-F 2 "" H 6600 17850 50  0001 C CNN
-F 3 "~" H 6600 17850 50  0001 C CNN
-	1    6600 17850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E10
-U 1 1 61F2ADCF
-P 7700 19850
-F 0 "E10" V 7950 19750 50  0000 R CNN
-F 1 "Electrode" V 7850 19850 50  0000 R CNN
-F 2 "" H 7700 19850 50  0001 C CNN
-F 3 "" H 7700 19850 50  0001 C CNN
-	1    7700 19850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe10
-U 1 1 61F2ADC9
-P 7400 20000
-F 0 "JPe10" V 7400 20050 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7445 20068 50  0001 L CNN
-F 2 "" H 7400 20000 50  0001 C CNN
-F 3 "~" H 7400 20000 50  0001 C CNN
-	1    7400 20000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7200 17650 7200 17850
-Wire Wire Line
-	7200 17850 6800 17850
-Wire Wire Line
-	7200 18150 7200 17950
-Wire Wire Line
-	7200 17950 6800 17950
-Wire Wire Line
-	7200 17200 7150 17200
-Wire Wire Line
-	7150 17200 7150 17750
-Wire Wire Line
-	7150 17750 6800 17750
-Wire Wire Line
-	7200 16750 7100 16750
-Wire Wire Line
-	7100 16750 7100 17650
-Wire Wire Line
-	7100 17650 6800 17650
-Wire Wire Line
-	7200 16300 7050 16300
-Wire Wire Line
-	7050 16300 7050 17550
-Wire Wire Line
-	7050 17550 6800 17550
-Wire Wire Line
-	7200 15850 7000 15850
-Wire Wire Line
-	7000 15850 7000 17450
-Wire Wire Line
-	7000 17450 6800 17450
-Wire Wire Line
-	7200 18600 7150 18600
-Wire Wire Line
-	7150 18600 7150 18050
-Wire Wire Line
-	7150 18050 6800 18050
-Wire Wire Line
-	7200 19050 7100 19050
-Wire Wire Line
-	7100 19050 7100 18150
-Wire Wire Line
-	7100 18150 6800 18150
-Wire Wire Line
-	7200 19500 7050 19500
-Wire Wire Line
-	7050 19500 7050 18250
-Wire Wire Line
-	7050 18250 6800 18250
-Wire Wire Line
-	7200 20000 7000 20000
-Wire Wire Line
-	7000 20000 7000 18350
-Wire Wire Line
-	7000 18350 6800 18350
-Text Label 7450 10800 0    50   ~ 0
-Electrode12
-Text Label 7450 11250 0    50   ~ 0
-Electrode13
-Text Label 7450 11700 0    50   ~ 0
-Electrode14
-Text Label 7450 12150 0    50   ~ 0
-Electrode15
-Text Label 7450 12650 0    50   ~ 0
-Electrode16
-Text Label 7450 13100 0    50   ~ 0
-Electrode17
-Text Label 7450 13550 0    50   ~ 0
-Electrode18
-Text Label 7450 14000 0    50   ~ 0
-Electrode19
-Text Label 7450 14500 0    50   ~ 0
-Electrode20
-Text Label 7450 10350 0    50   ~ 0
-Electrode11
 $Comp
 L Device:R_Small Rs21
 U 1 1 61D0EFBC
@@ -1636,293 +1336,6 @@ Text Label 4950 13450 0    50   ~ 0
 Electrode19
 Text Label 4950 13700 0    50   ~ 0
 Electrode20
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe21
-U 1 1 61D0F12A
-P 7450 10500
-F 0 "JPe21" V 7450 10550 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 10568 50  0001 L CNN
-F 2 "" H 7450 10500 50  0001 C CNN
-F 3 "~" H 7450 10500 50  0001 C CNN
-	1    7450 10500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E21
-U 1 1 61D0F123
-P 7750 10350
-F 0 "E21" V 8000 10250 50  0000 R CNN
-F 1 "Electrode" V 7900 10350 50  0000 R CNN
-F 2 "" H 7750 10350 50  0001 C CNN
-F 3 "" H 7750 10350 50  0001 C CNN
-	1    7750 10350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe22
-U 1 1 61D0F11D
-P 7450 10950
-F 0 "JPe22" V 7450 11000 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 11018 50  0001 L CNN
-F 2 "" H 7450 10950 50  0001 C CNN
-F 3 "~" H 7450 10950 50  0001 C CNN
-	1    7450 10950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E22
-U 1 1 61D0F117
-P 7750 10800
-F 0 "E22" V 8000 10700 50  0000 R CNN
-F 1 "Electrode" V 7900 10800 50  0000 R CNN
-F 2 "" H 7750 10800 50  0001 C CNN
-F 3 "" H 7750 10800 50  0001 C CNN
-	1    7750 10800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E23
-U 1 1 61D0F10F
-P 7750 11250
-F 0 "E23" V 8000 11150 50  0000 R CNN
-F 1 "Electrode" V 7900 11250 50  0000 R CNN
-F 2 "" H 7750 11250 50  0001 C CNN
-F 3 "" H 7750 11250 50  0001 C CNN
-	1    7750 11250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe23
-U 1 1 61D0F109
-P 7450 11400
-F 0 "JPe23" V 7450 11450 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 11468 50  0001 L CNN
-F 2 "" H 7450 11400 50  0001 C CNN
-F 3 "~" H 7450 11400 50  0001 C CNN
-	1    7450 11400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe24
-U 1 1 61D0F103
-P 7450 11850
-F 0 "JPe24" V 7450 11900 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 11918 50  0001 L CNN
-F 2 "" H 7450 11850 50  0001 C CNN
-F 3 "~" H 7450 11850 50  0001 C CNN
-	1    7450 11850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E24
-U 1 1 61D0F0FD
-P 7750 11700
-F 0 "E24" V 8000 11600 50  0000 R CNN
-F 1 "Electrode" V 7900 11700 50  0000 R CNN
-F 2 "" H 7750 11700 50  0001 C CNN
-F 3 "" H 7750 11700 50  0001 C CNN
-	1    7750 11700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E25
-U 1 1 61D0F0F5
-P 7750 12150
-F 0 "E25" V 8000 12050 50  0000 R CNN
-F 1 "Electrode" V 7900 12150 50  0000 R CNN
-F 2 "" H 7750 12150 50  0001 C CNN
-F 3 "" H 7750 12150 50  0001 C CNN
-	1    7750 12150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe25
-U 1 1 61D0F0EF
-P 7450 12300
-F 0 "JPe25" V 7450 12350 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 12368 50  0001 L CNN
-F 2 "" H 7450 12300 50  0001 C CNN
-F 3 "~" H 7450 12300 50  0001 C CNN
-	1    7450 12300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe26
-U 1 1 61D0F0E9
-P 7450 12800
-F 0 "JPe26" V 7450 12850 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 12868 50  0001 L CNN
-F 2 "" H 7450 12800 50  0001 C CNN
-F 3 "~" H 7450 12800 50  0001 C CNN
-	1    7450 12800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E26
-U 1 1 61D0F0E3
-P 7750 12650
-F 0 "E26" V 8000 12550 50  0000 R CNN
-F 1 "Electrode" V 7900 12650 50  0000 R CNN
-F 2 "" H 7750 12650 50  0001 C CNN
-F 3 "" H 7750 12650 50  0001 C CNN
-	1    7750 12650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E27
-U 1 1 61D0F0DB
-P 7750 13100
-F 0 "E27" V 8000 13000 50  0000 R CNN
-F 1 "Electrode" V 7900 13100 50  0000 R CNN
-F 2 "" H 7750 13100 50  0001 C CNN
-F 3 "" H 7750 13100 50  0001 C CNN
-	1    7750 13100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe27
-U 1 1 61D0F0D5
-P 7450 13250
-F 0 "JPe27" V 7450 13300 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 13318 50  0001 L CNN
-F 2 "" H 7450 13250 50  0001 C CNN
-F 3 "~" H 7450 13250 50  0001 C CNN
-	1    7450 13250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe28
-U 1 1 61D0F0CF
-P 7450 13700
-F 0 "JPe28" V 7450 13750 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 13768 50  0001 L CNN
-F 2 "" H 7450 13700 50  0001 C CNN
-F 3 "~" H 7450 13700 50  0001 C CNN
-	1    7450 13700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E28
-U 1 1 61D0F0C9
-P 7750 13550
-F 0 "E28" V 8000 13450 50  0000 R CNN
-F 1 "Electrode" V 7900 13550 50  0000 R CNN
-F 2 "" H 7750 13550 50  0001 C CNN
-F 3 "" H 7750 13550 50  0001 C CNN
-	1    7750 13550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E29
-U 1 1 61D0F0C1
-P 7750 14000
-F 0 "E29" V 8000 13900 50  0000 R CNN
-F 1 "Electrode" V 7900 14000 50  0000 R CNN
-F 2 "" H 7750 14000 50  0001 C CNN
-F 3 "" H 7750 14000 50  0001 C CNN
-	1    7750 14000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe29
-U 1 1 61D0F0BB
-P 7450 14150
-F 0 "JPe29" V 7450 14200 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 14218 50  0001 L CNN
-F 2 "" H 7450 14150 50  0001 C CNN
-F 3 "~" H 7450 14150 50  0001 C CNN
-	1    7450 14150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x10_Male Je3
-U 1 1 61D0F0B4
-P 6650 12500
-F 0 "Je3" H 6758 13081 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 6758 12990 50  0000 C CNN
-F 2 "" H 6650 12500 50  0001 C CNN
-F 3 "~" H 6650 12500 50  0001 C CNN
-	1    6650 12500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E30
-U 1 1 61D0F0AE
-P 7750 14500
-F 0 "E30" V 8000 14400 50  0000 R CNN
-F 1 "Electrode" V 7900 14500 50  0000 R CNN
-F 2 "" H 7750 14500 50  0001 C CNN
-F 3 "" H 7750 14500 50  0001 C CNN
-	1    7750 14500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe30
-U 1 1 61D0F0A8
-P 7450 14650
-F 0 "JPe30" V 7450 14700 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 14718 50  0001 L CNN
-F 2 "" H 7450 14650 50  0001 C CNN
-F 3 "~" H 7450 14650 50  0001 C CNN
-	1    7450 14650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7250 12300 7250 12500
-Wire Wire Line
-	7250 12500 6850 12500
-Wire Wire Line
-	7250 12800 7250 12600
-Wire Wire Line
-	7250 12600 6850 12600
-Wire Wire Line
-	7250 11850 7200 11850
-Wire Wire Line
-	7200 11850 7200 12400
-Wire Wire Line
-	7200 12400 6850 12400
-Wire Wire Line
-	7250 11400 7150 11400
-Wire Wire Line
-	7150 11400 7150 12300
-Wire Wire Line
-	7150 12300 6850 12300
-Wire Wire Line
-	7250 10950 7100 10950
-Wire Wire Line
-	7100 10950 7100 12200
-Wire Wire Line
-	7100 12200 6850 12200
-Wire Wire Line
-	7250 10500 7050 10500
-Wire Wire Line
-	7050 10500 7050 12100
-Wire Wire Line
-	7050 12100 6850 12100
-Wire Wire Line
-	7250 13250 7200 13250
-Wire Wire Line
-	7200 13250 7200 12700
-Wire Wire Line
-	7200 12700 6850 12700
-Wire Wire Line
-	7250 13700 7150 13700
-Wire Wire Line
-	7150 13700 7150 12800
-Wire Wire Line
-	7150 12800 6850 12800
-Wire Wire Line
-	7250 14150 7100 14150
-Wire Wire Line
-	7100 14150 7100 12900
-Wire Wire Line
-	7100 12900 6850 12900
-Wire Wire Line
-	7250 14650 7050 14650
-Wire Wire Line
-	7050 14650 7050 13000
-Wire Wire Line
-	7050 13000 6850 13000
 Wire Wire Line
 	1650 6750 1650 6850
 Wire Wire Line
@@ -2033,313 +1446,6 @@ Wire Wire Line
 	3200 5650 3200 5550
 Connection ~ 3200 5650
 Connection ~ 3200 9000
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe11
-U 1 1 6189BC90
-P 7450 5100
-F 0 "JPe11" V 7450 5150 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 5168 50  0001 L CNN
-F 2 "" H 7450 5100 50  0001 C CNN
-F 3 "~" H 7450 5100 50  0001 C CNN
-	1    7450 5100
-	-1   0    0    1   
-$EndComp
-Text Label 7450 4950 0    50   ~ 0
-Electrode1
-$Comp
-L Custom_Sensor_Touch:Electrode E11
-U 1 1 618D4A29
-P 7750 4950
-F 0 "E11" V 8000 4850 50  0000 R CNN
-F 1 "Electrode" V 7900 4950 50  0000 R CNN
-F 2 "" H 7750 4950 50  0001 C CNN
-F 3 "" H 7750 4950 50  0001 C CNN
-	1    7750 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe12
-U 1 1 618EC9AC
-P 7450 5550
-F 0 "JPe12" V 7450 5600 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 5618 50  0001 L CNN
-F 2 "" H 7450 5550 50  0001 C CNN
-F 3 "~" H 7450 5550 50  0001 C CNN
-	1    7450 5550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E12
-U 1 1 618EC9A6
-P 7750 5400
-F 0 "E12" V 8000 5300 50  0000 R CNN
-F 1 "Electrode" V 7900 5400 50  0000 R CNN
-F 2 "" H 7750 5400 50  0001 C CNN
-F 3 "" H 7750 5400 50  0001 C CNN
-	1    7750 5400
-	1    0    0    -1  
-$EndComp
-Text Label 7450 5400 0    50   ~ 0
-Electrode2
-Text Label 7450 5850 0    50   ~ 0
-Electrode3
-$Comp
-L Custom_Sensor_Touch:Electrode E13
-U 1 1 618FABE5
-P 7750 5850
-F 0 "E13" V 8000 5750 50  0000 R CNN
-F 1 "Electrode" V 7900 5850 50  0000 R CNN
-F 2 "" H 7750 5850 50  0001 C CNN
-F 3 "" H 7750 5850 50  0001 C CNN
-	1    7750 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe13
-U 1 1 618FABEB
-P 7450 6000
-F 0 "JPe13" V 7450 6050 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 6068 50  0001 L CNN
-F 2 "" H 7450 6000 50  0001 C CNN
-F 3 "~" H 7450 6000 50  0001 C CNN
-	1    7450 6000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe14
-U 1 1 618FABF1
-P 7450 6450
-F 0 "JPe14" V 7450 6500 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 6518 50  0001 L CNN
-F 2 "" H 7450 6450 50  0001 C CNN
-F 3 "~" H 7450 6450 50  0001 C CNN
-	1    7450 6450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E14
-U 1 1 618FABF7
-P 7750 6300
-F 0 "E14" V 8000 6200 50  0000 R CNN
-F 1 "Electrode" V 7900 6300 50  0000 R CNN
-F 2 "" H 7750 6300 50  0001 C CNN
-F 3 "" H 7750 6300 50  0001 C CNN
-	1    7750 6300
-	1    0    0    -1  
-$EndComp
-Text Label 7450 6300 0    50   ~ 0
-Electrode4
-Text Label 7450 6750 0    50   ~ 0
-Electrode5
-$Comp
-L Custom_Sensor_Touch:Electrode E15
-U 1 1 61901C69
-P 7750 6750
-F 0 "E15" V 8000 6650 50  0000 R CNN
-F 1 "Electrode" V 7900 6750 50  0000 R CNN
-F 2 "" H 7750 6750 50  0001 C CNN
-F 3 "" H 7750 6750 50  0001 C CNN
-	1    7750 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe15
-U 1 1 61901C6F
-P 7450 6900
-F 0 "JPe15" V 7450 6950 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 6968 50  0001 L CNN
-F 2 "" H 7450 6900 50  0001 C CNN
-F 3 "~" H 7450 6900 50  0001 C CNN
-	1    7450 6900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe16
-U 1 1 61901C75
-P 7450 7400
-F 0 "JPe16" V 7450 7450 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 7468 50  0001 L CNN
-F 2 "" H 7450 7400 50  0001 C CNN
-F 3 "~" H 7450 7400 50  0001 C CNN
-	1    7450 7400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E16
-U 1 1 61901C7B
-P 7750 7250
-F 0 "E16" V 8000 7150 50  0000 R CNN
-F 1 "Electrode" V 7900 7250 50  0000 R CNN
-F 2 "" H 7750 7250 50  0001 C CNN
-F 3 "" H 7750 7250 50  0001 C CNN
-	1    7750 7250
-	1    0    0    -1  
-$EndComp
-Text Label 7450 7250 0    50   ~ 0
-Electrode6
-Text Label 7450 7700 0    50   ~ 0
-Electrode7
-$Comp
-L Custom_Sensor_Touch:Electrode E17
-U 1 1 61901C83
-P 7750 7700
-F 0 "E17" V 8000 7600 50  0000 R CNN
-F 1 "Electrode" V 7900 7700 50  0000 R CNN
-F 2 "" H 7750 7700 50  0001 C CNN
-F 3 "" H 7750 7700 50  0001 C CNN
-	1    7750 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe17
-U 1 1 61901C89
-P 7450 7850
-F 0 "JPe17" V 7450 7900 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 7918 50  0001 L CNN
-F 2 "" H 7450 7850 50  0001 C CNN
-F 3 "~" H 7450 7850 50  0001 C CNN
-	1    7450 7850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe18
-U 1 1 61901C8F
-P 7450 8300
-F 0 "JPe18" V 7450 8350 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 8368 50  0001 L CNN
-F 2 "" H 7450 8300 50  0001 C CNN
-F 3 "~" H 7450 8300 50  0001 C CNN
-	1    7450 8300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E18
-U 1 1 61901C95
-P 7750 8150
-F 0 "E18" V 8000 8050 50  0000 R CNN
-F 1 "Electrode" V 7900 8150 50  0000 R CNN
-F 2 "" H 7750 8150 50  0001 C CNN
-F 3 "" H 7750 8150 50  0001 C CNN
-	1    7750 8150
-	1    0    0    -1  
-$EndComp
-Text Label 7450 8150 0    50   ~ 0
-Electrode8
-Text Label 7450 8600 0    50   ~ 0
-Electrode9
-$Comp
-L Custom_Sensor_Touch:Electrode E19
-U 1 1 61908C9B
-P 7750 8600
-F 0 "E19" V 8000 8500 50  0000 R CNN
-F 1 "Electrode" V 7900 8600 50  0000 R CNN
-F 2 "" H 7750 8600 50  0001 C CNN
-F 3 "" H 7750 8600 50  0001 C CNN
-	1    7750 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe19
-U 1 1 61908CA1
-P 7450 8750
-F 0 "JPe19" V 7450 8800 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 8818 50  0001 L CNN
-F 2 "" H 7450 8750 50  0001 C CNN
-F 3 "~" H 7450 8750 50  0001 C CNN
-	1    7450 8750
-	-1   0    0    1   
-$EndComp
-Text Label 7450 9050 0    50   ~ 0
-Electrode10
-$Comp
-L Connector:Conn_01x10_Male Je2
-U 1 1 6190C94C
-P 6650 7100
-F 0 "Je2" H 6758 7681 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 6758 7590 50  0000 C CNN
-F 2 "" H 6650 7100 50  0001 C CNN
-F 3 "~" H 6650 7100 50  0001 C CNN
-	1    6650 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_Sensor_Touch:Electrode E20
-U 1 1 619173AA
-P 7750 9100
-F 0 "E20" V 8000 9000 50  0000 R CNN
-F 1 "Electrode" V 7900 9100 50  0000 R CNN
-F 2 "" H 7750 9100 50  0001 C CNN
-F 3 "" H 7750 9100 50  0001 C CNN
-	1    7750 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe20
-U 1 1 619173B0
-P 7450 9250
-F 0 "JPe20" V 7450 9300 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7495 9318 50  0001 L CNN
-F 2 "" H 7450 9250 50  0001 C CNN
-F 3 "~" H 7450 9250 50  0001 C CNN
-	1    7450 9250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7250 6900 7250 7100
-Wire Wire Line
-	7250 7100 6850 7100
-Wire Wire Line
-	7250 7400 7250 7200
-Wire Wire Line
-	7250 7200 6850 7200
-Wire Wire Line
-	7250 6450 7200 6450
-Wire Wire Line
-	7200 6450 7200 7000
-Wire Wire Line
-	7200 7000 6850 7000
-Wire Wire Line
-	7250 6000 7150 6000
-Wire Wire Line
-	7150 6000 7150 6900
-Wire Wire Line
-	7150 6900 6850 6900
-Wire Wire Line
-	7250 5550 7100 5550
-Wire Wire Line
-	7100 5550 7100 6800
-Wire Wire Line
-	7100 6800 6850 6800
-Wire Wire Line
-	7250 5100 7050 5100
-Wire Wire Line
-	7050 5100 7050 6700
-Wire Wire Line
-	7050 6700 6850 6700
-Wire Wire Line
-	7250 7850 7200 7850
-Wire Wire Line
-	7200 7850 7200 7300
-Wire Wire Line
-	7200 7300 6850 7300
-Wire Wire Line
-	7250 8300 7150 8300
-Wire Wire Line
-	7150 8300 7150 7400
-Wire Wire Line
-	7150 7400 6850 7400
-Wire Wire Line
-	7250 8750 7100 8750
-Wire Wire Line
-	7100 8750 7100 7500
-Wire Wire Line
-	7100 7500 6850 7500
-Wire Wire Line
-	7250 9250 7050 9250
-Wire Wire Line
-	7050 9250 7050 7600
-Wire Wire Line
-	7050 7600 6850 7600
 Text Label 4950 8300 0    50   ~ 0
 Electrode10
 Text Label 4950 8050 0    50   ~ 0
@@ -2391,8 +1497,6 @@ $EndComp
 Text Notes 900  4850 0    50   ~ 0
 Proper device mode setup (ADDRESS 0):\n[0-3] REPEAT TIME: 0 for "continuous mode";  n for n*16ms wait\n[4] SYNC: 0 for level trigger\n[5] SIGNAL: 1 for parallel acquisition of keys\n[6] MODE: 1 for 11-key mode {defaulted 0}\n[7] KEY_AC: 0 to enable SYNC pin\n
 NoConn ~ 3950 8550
-Text Notes 3900 9350 0    50   ~ 0
-SYNC input pin will run in Low Level Mode\nIn Low Level Mode, QT110 operates in "free run" as long as SYNC is low.\nWhen SYNC is high, current measurement cycle will be finished and \nkey measurements will be paused until SYNC goes low again.\n\nFor example, we can make SYNC high after we detect a CHANGE interrupt,\nread fretboard state through daisy-chain-reading, then make SYNC low.
 $Comp
 L Device:R_Small Rs20
 U 1 1 6186F18A
@@ -2745,41 +1849,937 @@ Text Label 4900 18800 0    50   ~ 0
 Electrode29
 Text Label 4900 19050 0    50   ~ 0
 Electrode30
-Text Label 7400 15700 0    50   ~ 0
-Electrode21
-Text Label 7400 16150 0    50   ~ 0
-Electrode22
-Text Label 7400 16600 0    50   ~ 0
-Electrode23
-Text Label 7400 17050 0    50   ~ 0
-Electrode24
-Text Label 7400 17500 0    50   ~ 0
-Electrode25
-Text Label 7400 18000 0    50   ~ 0
-Electrode26
-Text Label 7400 18450 0    50   ~ 0
-Electrode27
-Text Label 7400 18900 0    50   ~ 0
-Electrode28
-Text Label 7400 19350 0    50   ~ 0
-Electrode29
-Text Label 7400 19850 0    50   ~ 0
-Electrode30
-$Comp
-L Custom_Sensor_Touch:Electrode E6
-U 1 1 61F2ADFF
-P 7700 18000
-F 0 "E6" V 7950 17900 50  0000 R CNN
-F 1 "Electrode" V 7850 18000 50  0000 R CNN
-F 2 "" H 7700 18000 50  0001 C CNN
-F 3 "" H 7700 18000 50  0001 C CNN
-	1    7700 18000
-	1    0    0    -1  
-$EndComp
 Text Label 2500 17400 2    50   ~ 0
 ~SS3
 Text Label 2550 12050 2    50   ~ 0
 ~SS2
 Text Label 2550 6650 2    50   ~ 0
 ~SS1
+Wire Notes Line
+	500  21000 8450 21000
+Text Notes 3500 9700 0    50   ~ 0
+SYNC input pin will run in Low Level Mode\nIn Low Level Mode, QT110 operates in "free run" as long as SYNC is low.\nWhen SYNC is high, current measurement cycle will be finished and \nkey measurements will be paused until SYNC goes low again.\n\nFor example, we can make SYNC high after we detect a CHANGE interrupt,\nread fretboard state through daisy-chain-reading, then make SYNC low.
+Wire Wire Line
+	7250 6900 7250 7100
+Wire Wire Line
+	7250 7100 6850 7100
+Wire Wire Line
+	7250 7400 7250 7200
+Wire Wire Line
+	7250 7200 6850 7200
+Wire Wire Line
+	7250 6450 7200 6450
+Wire Wire Line
+	7200 6450 7200 7000
+Wire Wire Line
+	7200 7000 6850 7000
+Wire Wire Line
+	7250 6000 7150 6000
+Wire Wire Line
+	7150 6000 7150 6900
+Wire Wire Line
+	7150 6900 6850 6900
+Wire Wire Line
+	7250 5550 7100 5550
+Wire Wire Line
+	7100 5550 7100 6800
+Wire Wire Line
+	7100 6800 6850 6800
+Wire Wire Line
+	7250 5100 7050 5100
+Wire Wire Line
+	7050 5100 7050 6700
+Wire Wire Line
+	7050 6700 6850 6700
+Wire Wire Line
+	7250 7850 7200 7850
+Wire Wire Line
+	7200 7850 7200 7300
+Wire Wire Line
+	7200 7300 6850 7300
+Wire Wire Line
+	7250 8300 7150 8300
+Wire Wire Line
+	7150 8300 7150 7400
+Wire Wire Line
+	7150 7400 6850 7400
+Wire Wire Line
+	7250 8750 7100 8750
+Wire Wire Line
+	7100 8750 7100 7500
+Wire Wire Line
+	7100 7500 6850 7500
+Wire Wire Line
+	7250 9250 7050 9250
+Wire Wire Line
+	7050 9250 7050 7600
+Wire Wire Line
+	7050 7600 6850 7600
+Wire Wire Line
+	7050 13000 6850 13000
+Wire Wire Line
+	7050 14650 7050 13000
+Wire Wire Line
+	7250 14650 7050 14650
+Wire Wire Line
+	7100 12900 6850 12900
+Wire Wire Line
+	7100 14150 7100 12900
+Wire Wire Line
+	7250 14150 7100 14150
+Wire Wire Line
+	7150 12800 6850 12800
+Wire Wire Line
+	7150 13700 7150 12800
+Wire Wire Line
+	7250 13700 7150 13700
+Wire Wire Line
+	7200 12700 6850 12700
+Wire Wire Line
+	7200 13250 7200 12700
+Wire Wire Line
+	7250 13250 7200 13250
+Wire Wire Line
+	7050 12100 6850 12100
+Wire Wire Line
+	7050 10500 7050 12100
+Wire Wire Line
+	7250 10500 7050 10500
+Wire Wire Line
+	7100 12200 6850 12200
+Wire Wire Line
+	7100 10950 7100 12200
+Wire Wire Line
+	7250 10950 7100 10950
+Wire Wire Line
+	7150 12300 6850 12300
+Wire Wire Line
+	7150 11400 7150 12300
+Wire Wire Line
+	7250 11400 7150 11400
+Wire Wire Line
+	7200 12400 6850 12400
+Wire Wire Line
+	7200 11850 7200 12400
+Wire Wire Line
+	7250 11850 7200 11850
+Wire Wire Line
+	7250 12600 6850 12600
+Wire Wire Line
+	7250 12800 7250 12600
+Wire Wire Line
+	7250 12500 6850 12500
+Wire Wire Line
+	7250 12300 7250 12500
+$Comp
+L Custom_Sensor_Touch:Electrode E20
+U 1 1 619173AA
+P 7750 14500
+F 0 "E20" V 8000 14400 50  0000 R CNN
+F 1 "Electrode" V 7900 14500 50  0000 R CNN
+F 2 "" H 7750 14500 50  0001 C CNN
+F 3 "" H 7750 14500 50  0001 C CNN
+	1    7750 14500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E19
+U 1 1 61908C9B
+P 7750 14000
+F 0 "E19" V 8000 13900 50  0000 R CNN
+F 1 "Electrode" V 7900 14000 50  0000 R CNN
+F 2 "" H 7750 14000 50  0001 C CNN
+F 3 "" H 7750 14000 50  0001 C CNN
+	1    7750 14000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E18
+U 1 1 61901C95
+P 7750 13550
+F 0 "E18" V 8000 13450 50  0000 R CNN
+F 1 "Electrode" V 7900 13550 50  0000 R CNN
+F 2 "" H 7750 13550 50  0001 C CNN
+F 3 "" H 7750 13550 50  0001 C CNN
+	1    7750 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E17
+U 1 1 61901C83
+P 7750 13100
+F 0 "E17" V 8000 13000 50  0000 R CNN
+F 1 "Electrode" V 7900 13100 50  0000 R CNN
+F 2 "" H 7750 13100 50  0001 C CNN
+F 3 "" H 7750 13100 50  0001 C CNN
+	1    7750 13100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E16
+U 1 1 61901C7B
+P 7750 12650
+F 0 "E16" V 8000 12550 50  0000 R CNN
+F 1 "Electrode" V 7900 12650 50  0000 R CNN
+F 2 "" H 7750 12650 50  0001 C CNN
+F 3 "" H 7750 12650 50  0001 C CNN
+	1    7750 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E15
+U 1 1 61901C69
+P 7750 12150
+F 0 "E15" V 8000 12050 50  0000 R CNN
+F 1 "Electrode" V 7900 12150 50  0000 R CNN
+F 2 "" H 7750 12150 50  0001 C CNN
+F 3 "" H 7750 12150 50  0001 C CNN
+	1    7750 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E14
+U 1 1 618FABF7
+P 7750 11700
+F 0 "E14" V 8000 11600 50  0000 R CNN
+F 1 "Electrode" V 7900 11700 50  0000 R CNN
+F 2 "" H 7750 11700 50  0001 C CNN
+F 3 "" H 7750 11700 50  0001 C CNN
+	1    7750 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E13
+U 1 1 618FABE5
+P 7750 11250
+F 0 "E13" V 8000 11150 50  0000 R CNN
+F 1 "Electrode" V 7900 11250 50  0000 R CNN
+F 2 "" H 7750 11250 50  0001 C CNN
+F 3 "" H 7750 11250 50  0001 C CNN
+	1    7750 11250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E12
+U 1 1 618EC9A6
+P 7750 10800
+F 0 "E12" V 8000 10700 50  0000 R CNN
+F 1 "Electrode" V 7900 10800 50  0000 R CNN
+F 2 "" H 7750 10800 50  0001 C CNN
+F 3 "" H 7750 10800 50  0001 C CNN
+	1    7750 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E11
+U 1 1 618D4A29
+P 7750 10350
+F 0 "E11" V 8000 10250 50  0000 R CNN
+F 1 "Electrode" V 7900 10350 50  0000 R CNN
+F 2 "" H 7750 10350 50  0001 C CNN
+F 3 "" H 7750 10350 50  0001 C CNN
+	1    7750 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe10
+U 1 1 61F2ADC9
+P 7450 9250
+F 0 "JPe10" V 7450 9300 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 9318 50  0001 L CNN
+F 2 "" H 7450 9250 50  0001 C CNN
+F 3 "~" H 7450 9250 50  0001 C CNN
+	1    7450 9250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe9
+U 1 1 61F2ADDB
+P 7450 8750
+F 0 "JPe9" V 7450 8800 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 8818 50  0001 L CNN
+F 2 "" H 7450 8750 50  0001 C CNN
+F 3 "~" H 7450 8750 50  0001 C CNN
+	1    7450 8750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe8
+U 1 1 61F2ADED
+P 7450 8300
+F 0 "JPe8" V 7450 8350 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 8368 50  0001 L CNN
+F 2 "" H 7450 8300 50  0001 C CNN
+F 3 "~" H 7450 8300 50  0001 C CNN
+	1    7450 8300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe7
+U 1 1 61F2ADF3
+P 7450 7850
+F 0 "JPe7" V 7450 7900 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 7918 50  0001 L CNN
+F 2 "" H 7450 7850 50  0001 C CNN
+F 3 "~" H 7450 7850 50  0001 C CNN
+	1    7450 7850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe6
+U 1 1 61F2AE05
+P 7450 7400
+F 0 "JPe6" V 7450 7450 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 7468 50  0001 L CNN
+F 2 "" H 7450 7400 50  0001 C CNN
+F 3 "~" H 7450 7400 50  0001 C CNN
+	1    7450 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe5
+U 1 1 61F2AE0B
+P 7450 6900
+F 0 "JPe5" V 7450 6950 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 6968 50  0001 L CNN
+F 2 "" H 7450 6900 50  0001 C CNN
+F 3 "~" H 7450 6900 50  0001 C CNN
+	1    7450 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe4
+U 1 1 61F2AE1D
+P 7450 6450
+F 0 "JPe4" V 7450 6500 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 6518 50  0001 L CNN
+F 2 "" H 7450 6450 50  0001 C CNN
+F 3 "~" H 7450 6450 50  0001 C CNN
+	1    7450 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe3
+U 1 1 61F2AE23
+P 7450 6000
+F 0 "JPe3" V 7450 6050 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 6068 50  0001 L CNN
+F 2 "" H 7450 6000 50  0001 C CNN
+F 3 "~" H 7450 6000 50  0001 C CNN
+	1    7450 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe2
+U 1 1 61F2AE35
+P 7450 5550
+F 0 "JPe2" V 7450 5600 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 5618 50  0001 L CNN
+F 2 "" H 7450 5550 50  0001 C CNN
+F 3 "~" H 7450 5550 50  0001 C CNN
+	1    7450 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe1
+U 1 1 61F2AE41
+P 7450 5100
+F 0 "JPe1" V 7450 5150 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 5168 50  0001 L CNN
+F 2 "" H 7450 5100 50  0001 C CNN
+F 3 "~" H 7450 5100 50  0001 C CNN
+	1    7450 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe11
+U 1 1 6189BC90
+P 7450 10500
+F 0 "JPe11" V 7450 10550 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 10568 50  0001 L CNN
+F 2 "" H 7450 10500 50  0001 C CNN
+F 3 "~" H 7450 10500 50  0001 C CNN
+	1    7450 10500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe12
+U 1 1 618EC9AC
+P 7450 10950
+F 0 "JPe12" V 7450 11000 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 11018 50  0001 L CNN
+F 2 "" H 7450 10950 50  0001 C CNN
+F 3 "~" H 7450 10950 50  0001 C CNN
+	1    7450 10950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe13
+U 1 1 618FABEB
+P 7450 11400
+F 0 "JPe13" V 7450 11450 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 11468 50  0001 L CNN
+F 2 "" H 7450 11400 50  0001 C CNN
+F 3 "~" H 7450 11400 50  0001 C CNN
+	1    7450 11400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe14
+U 1 1 618FABF1
+P 7450 11850
+F 0 "JPe14" V 7450 11900 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 11918 50  0001 L CNN
+F 2 "" H 7450 11850 50  0001 C CNN
+F 3 "~" H 7450 11850 50  0001 C CNN
+	1    7450 11850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe15
+U 1 1 61901C6F
+P 7450 12300
+F 0 "JPe15" V 7450 12350 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 12368 50  0001 L CNN
+F 2 "" H 7450 12300 50  0001 C CNN
+F 3 "~" H 7450 12300 50  0001 C CNN
+	1    7450 12300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe16
+U 1 1 61901C75
+P 7450 12800
+F 0 "JPe16" V 7450 12850 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 12868 50  0001 L CNN
+F 2 "" H 7450 12800 50  0001 C CNN
+F 3 "~" H 7450 12800 50  0001 C CNN
+	1    7450 12800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe17
+U 1 1 61901C89
+P 7450 13250
+F 0 "JPe17" V 7450 13300 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 13318 50  0001 L CNN
+F 2 "" H 7450 13250 50  0001 C CNN
+F 3 "~" H 7450 13250 50  0001 C CNN
+	1    7450 13250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe18
+U 1 1 61901C8F
+P 7450 13700
+F 0 "JPe18" V 7450 13750 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 13768 50  0001 L CNN
+F 2 "" H 7450 13700 50  0001 C CNN
+F 3 "~" H 7450 13700 50  0001 C CNN
+	1    7450 13700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe19
+U 1 1 61908CA1
+P 7450 14150
+F 0 "JPe19" V 7450 14200 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 14218 50  0001 L CNN
+F 2 "" H 7450 14150 50  0001 C CNN
+F 3 "~" H 7450 14150 50  0001 C CNN
+	1    7450 14150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe20
+U 1 1 619173B0
+P 7450 14650
+F 0 "JPe20" V 7450 14700 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7495 14718 50  0001 L CNN
+F 2 "" H 7450 14650 50  0001 C CNN
+F 3 "~" H 7450 14650 50  0001 C CNN
+	1    7450 14650
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	8450 500  8450 21000
+Text Label 7450 14450 0    50   ~ 0
+Electrode20
+Text Label 7450 14000 0    50   ~ 0
+Electrode19
+Text Label 7450 13550 0    50   ~ 0
+Electrode18
+Text Label 7450 13100 0    50   ~ 0
+Electrode17
+Text Label 7450 12650 0    50   ~ 0
+Electrode16
+Text Label 7450 12150 0    50   ~ 0
+Electrode15
+Text Label 7450 11700 0    50   ~ 0
+Electrode14
+Text Label 7450 11250 0    50   ~ 0
+Electrode13
+Text Label 7450 10800 0    50   ~ 0
+Electrode12
+$Comp
+L Custom_Sensor_Touch:Electrode E21
+U 1 1 61D0F123
+P 7700 15700
+F 0 "E21" V 7950 15600 50  0000 R CNN
+F 1 "Electrode" V 7850 15700 50  0000 R CNN
+F 2 "" H 7700 15700 50  0001 C CNN
+F 3 "" H 7700 15700 50  0001 C CNN
+	1    7700 15700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E22
+U 1 1 61D0F117
+P 7700 16150
+F 0 "E22" V 7950 16050 50  0000 R CNN
+F 1 "Electrode" V 7850 16150 50  0000 R CNN
+F 2 "" H 7700 16150 50  0001 C CNN
+F 3 "" H 7700 16150 50  0001 C CNN
+	1    7700 16150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E23
+U 1 1 61D0F10F
+P 7700 16600
+F 0 "E23" V 7950 16500 50  0000 R CNN
+F 1 "Electrode" V 7850 16600 50  0000 R CNN
+F 2 "" H 7700 16600 50  0001 C CNN
+F 3 "" H 7700 16600 50  0001 C CNN
+	1    7700 16600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E24
+U 1 1 61D0F0FD
+P 7700 17050
+F 0 "E24" V 7950 16950 50  0000 R CNN
+F 1 "Electrode" V 7850 17050 50  0000 R CNN
+F 2 "" H 7700 17050 50  0001 C CNN
+F 3 "" H 7700 17050 50  0001 C CNN
+	1    7700 17050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E25
+U 1 1 61D0F0F5
+P 7700 17500
+F 0 "E25" V 7950 17400 50  0000 R CNN
+F 1 "Electrode" V 7850 17500 50  0000 R CNN
+F 2 "" H 7700 17500 50  0001 C CNN
+F 3 "" H 7700 17500 50  0001 C CNN
+	1    7700 17500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E26
+U 1 1 61D0F0E3
+P 7700 18000
+F 0 "E26" V 7950 17900 50  0000 R CNN
+F 1 "Electrode" V 7850 18000 50  0000 R CNN
+F 2 "" H 7700 18000 50  0001 C CNN
+F 3 "" H 7700 18000 50  0001 C CNN
+	1    7700 18000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E27
+U 1 1 61D0F0DB
+P 7700 18450
+F 0 "E27" V 7950 18350 50  0000 R CNN
+F 1 "Electrode" V 7850 18450 50  0000 R CNN
+F 2 "" H 7700 18450 50  0001 C CNN
+F 3 "" H 7700 18450 50  0001 C CNN
+	1    7700 18450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E28
+U 1 1 61D0F0C9
+P 7700 18900
+F 0 "E28" V 7950 18800 50  0000 R CNN
+F 1 "Electrode" V 7850 18900 50  0000 R CNN
+F 2 "" H 7700 18900 50  0001 C CNN
+F 3 "" H 7700 18900 50  0001 C CNN
+	1    7700 18900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E29
+U 1 1 61D0F0C1
+P 7700 19350
+F 0 "E29" V 7950 19250 50  0000 R CNN
+F 1 "Electrode" V 7850 19350 50  0000 R CNN
+F 2 "" H 7700 19350 50  0001 C CNN
+F 3 "" H 7700 19350 50  0001 C CNN
+	1    7700 19350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E30
+U 1 1 61D0F0AE
+P 7700 19850
+F 0 "E30" V 7950 19750 50  0000 R CNN
+F 1 "Electrode" V 7850 19850 50  0000 R CNN
+F 2 "" H 7700 19850 50  0001 C CNN
+F 3 "" H 7700 19850 50  0001 C CNN
+	1    7700 19850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 17650 7200 17850
+Wire Wire Line
+	7200 17850 6800 17850
+Wire Wire Line
+	7200 18150 7200 17950
+Wire Wire Line
+	7200 17950 6800 17950
+Wire Wire Line
+	7200 17200 7150 17200
+Wire Wire Line
+	7200 16750 7100 16750
+Wire Wire Line
+	7200 16300 7050 16300
+Wire Wire Line
+	7200 15850 7000 15850
+Wire Wire Line
+	7200 18600 7150 18600
+Wire Wire Line
+	7200 19050 7100 19050
+Wire Wire Line
+	7200 19500 7050 19500
+Wire Wire Line
+	7200 20000 7000 20000
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe30
+U 1 1 61D0F0A8
+P 7400 20000
+F 0 "JPe30" V 7400 20050 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7445 20068 50  0001 L CNN
+F 2 "" H 7400 20000 50  0001 C CNN
+F 3 "~" H 7400 20000 50  0001 C CNN
+	1    7400 20000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe29
+U 1 1 61D0F0BB
+P 7400 19500
+F 0 "JPe29" V 7400 19550 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7445 19568 50  0001 L CNN
+F 2 "" H 7400 19500 50  0001 C CNN
+F 3 "~" H 7400 19500 50  0001 C CNN
+	1    7400 19500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe28
+U 1 1 61D0F0CF
+P 7400 19050
+F 0 "JPe28" V 7400 19100 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7445 19118 50  0001 L CNN
+F 2 "" H 7400 19050 50  0001 C CNN
+F 3 "~" H 7400 19050 50  0001 C CNN
+	1    7400 19050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe27
+U 1 1 61D0F0D5
+P 7400 18600
+F 0 "JPe27" V 7400 18650 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7445 18668 50  0001 L CNN
+F 2 "" H 7400 18600 50  0001 C CNN
+F 3 "~" H 7400 18600 50  0001 C CNN
+	1    7400 18600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe26
+U 1 1 61D0F0E9
+P 7400 18150
+F 0 "JPe26" V 7400 18200 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7445 18218 50  0001 L CNN
+F 2 "" H 7400 18150 50  0001 C CNN
+F 3 "~" H 7400 18150 50  0001 C CNN
+	1    7400 18150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe25
+U 1 1 61D0F0EF
+P 7400 17650
+F 0 "JPe25" V 7400 17700 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7445 17718 50  0001 L CNN
+F 2 "" H 7400 17650 50  0001 C CNN
+F 3 "~" H 7400 17650 50  0001 C CNN
+	1    7400 17650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe24
+U 1 1 61D0F103
+P 7400 17200
+F 0 "JPe24" V 7400 17250 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7445 17268 50  0001 L CNN
+F 2 "" H 7400 17200 50  0001 C CNN
+F 3 "~" H 7400 17200 50  0001 C CNN
+	1    7400 17200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe23
+U 1 1 61D0F109
+P 7400 16750
+F 0 "JPe23" V 7400 16800 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7445 16818 50  0001 L CNN
+F 2 "" H 7400 16750 50  0001 C CNN
+F 3 "~" H 7400 16750 50  0001 C CNN
+	1    7400 16750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe22
+U 1 1 61D0F11D
+P 7400 16300
+F 0 "JPe22" V 7400 16350 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7445 16368 50  0001 L CNN
+F 2 "" H 7400 16300 50  0001 C CNN
+F 3 "~" H 7400 16300 50  0001 C CNN
+	1    7400 16300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JPe21
+U 1 1 61D0F12A
+P 7400 15850
+F 0 "JPe21" V 7400 15900 50  0000 L CNN
+F 1 "Jumper_3_B12" V 7445 15918 50  0001 L CNN
+F 2 "" H 7400 15850 50  0001 C CNN
+F 3 "~" H 7400 15850 50  0001 C CNN
+	1    7400 15850
+	-1   0    0    1   
+$EndComp
+Text Label 7400 15700 0    50   ~ 0
+Electrode11
+Text Label 7400 19850 0    50   ~ 0
+Electrode20
+Text Label 7400 19350 0    50   ~ 0
+Electrode19
+Text Label 7400 18900 0    50   ~ 0
+Electrode18
+Text Label 7400 18450 0    50   ~ 0
+Electrode17
+Text Label 7400 18000 0    50   ~ 0
+Electrode16
+Text Label 7400 17500 0    50   ~ 0
+Electrode15
+Text Label 7400 17050 0    50   ~ 0
+Electrode14
+Text Label 7400 16600 0    50   ~ 0
+Electrode13
+Text Label 7400 16150 0    50   ~ 0
+Electrode12
+Wire Wire Line
+	7000 18350 6800 18350
+Wire Wire Line
+	7000 20000 7000 18350
+Wire Wire Line
+	7050 18250 6800 18250
+Wire Wire Line
+	7050 19500 7050 18250
+Wire Wire Line
+	7100 18150 6800 18150
+Wire Wire Line
+	7100 19050 7100 18150
+Wire Wire Line
+	7150 18050 6800 18050
+Wire Wire Line
+	7150 18600 7150 18050
+Wire Wire Line
+	7000 17450 6800 17450
+Wire Wire Line
+	7000 15850 7000 17450
+Wire Wire Line
+	7050 17550 6800 17550
+Wire Wire Line
+	7050 16300 7050 17550
+Wire Wire Line
+	7100 17650 6800 17650
+Wire Wire Line
+	7100 16750 7100 17650
+Wire Wire Line
+	7150 17750 6800 17750
+Wire Wire Line
+	7150 17200 7150 17750
+$Comp
+L Connector:Conn_01x10_Male Je2
+U 1 1 61D0F0B4
+P 6650 12500
+F 0 "Je2" H 6758 13081 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 6758 12990 50  0000 C CNN
+F 2 "" H 6650 12500 50  0001 C CNN
+F 3 "~" H 6650 12500 50  0001 C CNN
+	1    6650 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x10_Male Je3
+U 1 1 61F2ADD5
+P 6600 17850
+F 0 "Je3" H 6708 18431 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 6708 18340 50  0000 C CNN
+F 2 "" H 6600 17850 50  0001 C CNN
+F 3 "~" H 6600 17850 50  0001 C CNN
+	1    6600 17850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x10_Male Je1
+U 1 1 6190C94C
+P 6650 7100
+F 0 "Je1" H 6758 7681 50  0000 C CNN
+F 1 "Conn_01x10_Male" H 6758 7590 50  0000 C CNN
+F 2 "" H 6650 7100 50  0001 C CNN
+F 3 "~" H 6650 7100 50  0001 C CNN
+	1    6650 7100
+	1    0    0    -1  
+$EndComp
+Text Label 7450 10350 0    50   ~ 0
+Electrode11
+Text Label 7450 6750 0    50   ~ 0
+Electrode5
+Text Label 7450 7250 0    50   ~ 0
+Electrode6
+Text Label 7450 7700 0    50   ~ 0
+Electrode7
+Text Label 7450 8150 0    50   ~ 0
+Electrode8
+Text Label 7450 8600 0    50   ~ 0
+Electrode9
+Text Label 7450 9100 0    50   ~ 0
+Electrode10
+$Comp
+L Custom_Sensor_Touch:Electrode E6
+U 1 1 61F2ADFF
+P 7750 7250
+F 0 "E6" V 8000 7150 50  0000 R CNN
+F 1 "Electrode" V 7900 7250 50  0000 R CNN
+F 2 "" H 7750 7250 50  0001 C CNN
+F 3 "" H 7750 7250 50  0001 C CNN
+	1    7750 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E10
+U 1 1 61F2ADCF
+P 7750 9100
+F 0 "E10" V 8000 9000 50  0000 R CNN
+F 1 "Electrode" V 7900 9100 50  0000 R CNN
+F 2 "" H 7750 9100 50  0001 C CNN
+F 3 "" H 7750 9100 50  0001 C CNN
+	1    7750 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E9
+U 1 1 61F2ADE1
+P 7750 8600
+F 0 "E9" V 8000 8500 50  0000 R CNN
+F 1 "Electrode" V 7900 8600 50  0000 R CNN
+F 2 "" H 7750 8600 50  0001 C CNN
+F 3 "" H 7750 8600 50  0001 C CNN
+	1    7750 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E8
+U 1 1 61F2ADE7
+P 7750 8150
+F 0 "E8" V 8000 8050 50  0000 R CNN
+F 1 "Electrode" V 7900 8150 50  0000 R CNN
+F 2 "" H 7750 8150 50  0001 C CNN
+F 3 "" H 7750 8150 50  0001 C CNN
+	1    7750 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E7
+U 1 1 61F2ADF9
+P 7750 7700
+F 0 "E7" V 8000 7600 50  0000 R CNN
+F 1 "Electrode" V 7900 7700 50  0000 R CNN
+F 2 "" H 7750 7700 50  0001 C CNN
+F 3 "" H 7750 7700 50  0001 C CNN
+	1    7750 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E5
+U 1 1 61F2AE11
+P 7750 6750
+F 0 "E5" V 8000 6650 50  0000 R CNN
+F 1 "Electrode" V 7900 6750 50  0000 R CNN
+F 2 "" H 7750 6750 50  0001 C CNN
+F 3 "" H 7750 6750 50  0001 C CNN
+	1    7750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E4
+U 1 1 61F2AE17
+P 7750 6300
+F 0 "E4" V 8000 6200 50  0000 R CNN
+F 1 "Electrode" V 7900 6300 50  0000 R CNN
+F 2 "" H 7750 6300 50  0001 C CNN
+F 3 "" H 7750 6300 50  0001 C CNN
+	1    7750 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E3
+U 1 1 61F2AE29
+P 7750 5850
+F 0 "E3" V 8000 5750 50  0000 R CNN
+F 1 "Electrode" V 7900 5850 50  0000 R CNN
+F 2 "" H 7750 5850 50  0001 C CNN
+F 3 "" H 7750 5850 50  0001 C CNN
+	1    7750 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E2
+U 1 1 61F2AE2F
+P 7750 5400
+F 0 "E2" V 8000 5300 50  0000 R CNN
+F 1 "Electrode" V 7900 5400 50  0000 R CNN
+F 2 "" H 7750 5400 50  0001 C CNN
+F 3 "" H 7750 5400 50  0001 C CNN
+	1    7750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Sensor_Touch:Electrode E1
+U 1 1 61F2AE3B
+P 7750 4950
+F 0 "E1" V 8000 4850 50  0000 R CNN
+F 1 "Electrode" V 7900 4950 50  0000 R CNN
+F 2 "" H 7750 4950 50  0001 C CNN
+F 3 "" H 7750 4950 50  0001 C CNN
+	1    7750 4950
+	1    0    0    -1  
+$EndComp
+Text Label 7450 6300 0    50   ~ 0
+Electrode4
+Text Label 7450 5850 0    50   ~ 0
+Electrode3
+Text Label 7450 5400 0    50   ~ 0
+Electrode2
+Text Label 7450 4950 0    50   ~ 0
+Electrode1
 $EndSCHEMATC
