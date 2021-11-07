@@ -2784,4 +2784,50 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9520-AT42-QTouch-BSW-
 	1    3250 12550
 	1    0    0    -1  
 $EndComp
+Text Notes 9700 3950 0    50   ~ 0
+[!] Double check to see if SS line\nrequires active low or high,\nbecause this outputs 1 low
+$Comp
+L Custom_74xx:74HC138 U?
+U 1 1 61CB38E3
+P 13350 8350
+F 0 "U?" H 13350 9117 50  0000 C CNN
+F 1 "74HC138" H 13350 9026 50  0000 C CNN
+F 2 "" H 13350 8350 50  0001 C CNN
+F 3 "" H 13350 8350 50  0001 L BNN
+	1    13350 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_74xx:74HC138 U?
+U 1 1 61CB4064
+P 13350 9800
+F 0 "U?" H 13350 10567 50  0000 C CNN
+F 1 "74HC138" H 13350 10476 50  0000 C CNN
+F 2 "" H 13350 9800 50  0001 C CNN
+F 3 "" H 13350 9800 50  0001 L BNN
+	1    13350 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_74xx:74HC138 U?
+U 1 1 61D0A5DE
+P 13350 5450
+F 0 "U?" H 13350 6217 50  0000 C CNN
+F 1 "74HC138" H 13350 6126 50  0000 C CNN
+F 2 "" H 13350 5450 50  0001 C CNN
+F 3 "" H 13350 5450 50  0001 L BNN
+	1    13350 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_74xx:74HC138 U?
+U 1 1 61D0A5E4
+P 13350 6900
+F 0 "U?" H 13350 7667 50  0000 C CNN
+F 1 "74HC138" H 13350 7576 50  0000 C CNN
+F 2 "" H 13350 6900 50  0001 C CNN
+F 3 "" H 13350 6900 50  0001 L BNN
+	1    13350 6900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

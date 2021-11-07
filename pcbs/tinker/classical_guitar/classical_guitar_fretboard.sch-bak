@@ -1792,7 +1792,7 @@ Text Label 4950 17800 0    50   ~ 0
 Electrode25
 Text Label 4950 18050 0    50   ~ 0
 Electrode26
-Text Label 5000 18300 0    50   ~ 0
+Text Label 4950 18300 0    50   ~ 0
 Electrode27
 Text Label 4950 18550 0    50   ~ 0
 Electrode28
@@ -2782,6 +2782,52 @@ F 1 "AT42QT1110-A" H 3250 14140 50  0000 C CNN
 F 2 "Package:TQFP-32_7.0x7.0mm_P0.8mm" H 3250 12550 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9520-AT42-QTouch-BSW-AT42QT1110_Datasheet.pdf" H 3250 12550 50  0001 C CNN
 	1    3250 12550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_74xx:74HC138 U?
+U 1 1 61C06DBA
+P 13350 5450
+F 0 "U?" H 13350 6217 50  0000 C CNN
+F 1 "74HC138" H 13350 6126 50  0000 C CNN
+F 2 "" H 13350 5450 50  0001 C CNN
+F 3 "" H 13350 5450 50  0001 L BNN
+	1    13350 5450
+	1    0    0    -1  
+$EndComp
+Text Notes 9700 3950 0    50   ~ 0
+[!] Double check to see if SS line\nrequires active low or high,\nbecause this outputs 1 low
+$Comp
+L Custom_74xx:74HC138 U?
+U 1 1 61CB2AAF
+P 13350 6850
+F 0 "U?" H 13350 7617 50  0000 C CNN
+F 1 "74HC138" H 13350 7526 50  0000 C CNN
+F 2 "" H 13350 6850 50  0001 C CNN
+F 3 "" H 13350 6850 50  0001 L BNN
+	1    13350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_74xx:74HC138 U?
+U 1 1 61CB38E3
+P 13350 8350
+F 0 "U?" H 13350 9117 50  0000 C CNN
+F 1 "74HC138" H 13350 9026 50  0000 C CNN
+F 2 "" H 13350 8350 50  0001 C CNN
+F 3 "" H 13350 8350 50  0001 L BNN
+	1    13350 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_74xx:74HC138 U?
+U 1 1 61CB4064
+P 13350 10050
+F 0 "U?" H 13350 10817 50  0000 C CNN
+F 1 "74HC138" H 13350 10726 50  0000 C CNN
+F 2 "" H 13350 10050 50  0001 C CNN
+F 3 "" H 13350 10050 50  0001 L BNN
+	1    13350 10050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
