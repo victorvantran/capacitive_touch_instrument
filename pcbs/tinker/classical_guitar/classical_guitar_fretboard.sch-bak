@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 8957 23622
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -811,17 +811,6 @@ F 3 "~" H 1550 17200 50  0001 C CNN
 	1    1550 17200
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:Conn_01x03_Male Jalternative_spi3
-U 1 1 61F2AE57
-P 1550 17800
-F 0 "Jalternative_spi3" V 1704 17612 50  0000 R CNN
-F 1 "Conn_01x03_Male" V 1613 17612 50  0000 R CNN
-F 2 "" H 1550 17800 50  0001 C CNN
-F 3 "~" H 1550 17800 50  0001 C CNN
-	1    1550 17800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1150 17400 1150 17500
 Wire Wire Line
@@ -1255,17 +1244,6 @@ F 3 "~" H 1550 11850 50  0001 C CNN
 	1    1550 11850
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:Conn_01x03_Male Jalternative_spi2
-U 1 1 61D0F15E
-P 1550 12450
-F 0 "Jalternative_spi2" V 1704 12262 50  0000 R CNN
-F 1 "Conn_01x03_Male" V 1613 12262 50  0000 R CNN
-F 2 "" H 1550 12450 50  0001 C CNN
-F 3 "~" H 1550 12450 50  0001 C CNN
-	1    1550 12450
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	1150 12050 1150 12150
 Wire Wire Line
@@ -1312,17 +1290,6 @@ Wire Wire Line
 	1150 6750 1450 6750
 Wire Wire Line
 	1150 6650 1150 6750
-$Comp
-L Connector:Conn_01x03_Male Jalternative_spi1
-U 1 1 61C9E2CC
-P 1550 7050
-F 0 "Jalternative_spi1" V 1704 6862 50  0000 R CNN
-F 1 "Conn_01x03_Male" V 1613 6862 50  0000 R CNN
-F 2 "" H 1550 7050 50  0001 C CNN
-F 3 "~" H 1550 7050 50  0001 C CNN
-	1    1550 7050
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JPmiso1
 U 1 1 61BFCFE3
@@ -2784,275 +2751,292 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9520-AT42-QTouch-BSW-
 	1    3250 12550
 	1    0    0    -1  
 $EndComp
-Text Notes 9700 3950 0    50   ~ 0
+Text Notes 11950 4550 0    50   ~ 0
 [!] Double check to see if SS line\nrequires active low or high,\nbecause this outputs 1 low
-$Comp
-L Custom_74xx:74HC138 D?
-U 1 1 61CB38E3
-P 13350 8350
-F 0 "D?" H 13350 9117 50  0000 C CNN
-F 1 "74HC138" H 13350 9026 50  0000 C CNN
-F 2 "" H 13350 8350 50  0001 C CNN
-F 3 "" H 13350 8350 50  0001 L BNN
-	1    13350 8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_74xx:74HC138 D?
-U 1 1 61CB4064
-P 13350 9800
-F 0 "D?" H 13350 10567 50  0000 C CNN
-F 1 "74HC138" H 13350 10476 50  0000 C CNN
-F 2 "" H 13350 9800 50  0001 C CNN
-F 3 "" H 13350 9800 50  0001 L BNN
-	1    13350 9800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_74xx:74HC138 D?
-U 1 1 61D0A5DE
-P 13350 5450
-F 0 "D?" H 13350 6217 50  0000 C CNN
-F 1 "74HC138" H 13350 6126 50  0000 C CNN
-F 2 "" H 13350 5450 50  0001 C CNN
-F 3 "" H 13350 5450 50  0001 L BNN
-	1    13350 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_74xx:74HC138 D?
-U 1 1 61D0A5E4
-P 13350 6900
-F 0 "D?" H 13350 7667 50  0000 C CNN
-F 1 "74HC138" H 13350 7576 50  0000 C CNN
-F 2 "" H 13350 6900 50  0001 C CNN
-F 3 "" H 13350 6900 50  0001 L BNN
-	1    13350 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Custom_74xx:MC74HC1G04 I?
-U 1 1 6193EDD5
-P 11650 9700
-F 0 "I?" H 11650 9765 50  0000 C CNN
-F 1 "MC74HC1G04" H 11650 9674 50  0000 C CNN
-F 2 "" H 11650 9700 50  0001 C CNN
-F 3 "" H 11650 9700 50  0001 C CNN
-	1    11650 9700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR?
-U 1 1 61935489
-P 11300 9850
-F 0 "#PWR?" H 11300 9700 50  0001 C CNN
-F 1 "VDD" H 11315 10023 50  0000 C CNN
-F 2 "" H 11300 9850 50  0001 C CNN
-F 3 "" H 11300 9850 50  0001 C CNN
-	1    11300 9850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11350 9900 11300 9900
-Wire Wire Line
-	11300 9900 11300 9850
-$Comp
-L power:GND #PWR?
-U 1 1 61970D14
-P 11300 10150
-F 0 "#PWR?" H 11300 9900 50  0001 C CNN
-F 1 "GND" H 11305 9977 50  0000 C CNN
-F 2 "" H 11300 10150 50  0001 C CNN
-F 3 "" H 11300 10150 50  0001 C CNN
-	1    11300 10150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11350 10100 11300 10100
-Wire Wire Line
-	11300 10100 11300 10150
-$Comp
-L power:VDD #PWR?
-U 1 1 619AAA06
-P 12800 9250
-F 0 "#PWR?" H 12800 9100 50  0001 C CNN
-F 1 "VDD" H 12815 9423 50  0000 C CNN
-F 2 "" H 12800 9250 50  0001 C CNN
-F 3 "" H 12800 9250 50  0001 C CNN
-	1    12800 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR?
-U 1 1 619AB0D2
-P 12800 7800
-F 0 "#PWR?" H 12800 7650 50  0001 C CNN
-F 1 "VDD" H 12815 7973 50  0000 C CNN
-F 2 "" H 12800 7800 50  0001 C CNN
-F 3 "" H 12800 7800 50  0001 C CNN
-	1    12800 7800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR?
-U 1 1 619AB528
-P 12800 6350
-F 0 "#PWR?" H 12800 6200 50  0001 C CNN
-F 1 "VDD" H 12815 6523 50  0000 C CNN
-F 2 "" H 12800 6350 50  0001 C CNN
-F 3 "" H 12800 6350 50  0001 C CNN
-	1    12800 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR?
-U 1 1 619ABF93
-P 12800 4900
-F 0 "#PWR?" H 12800 4750 50  0001 C CNN
-F 1 "VDD" H 12815 5073 50  0000 C CNN
-F 2 "" H 12800 4900 50  0001 C CNN
-F 3 "" H 12800 4900 50  0001 C CNN
-	1    12800 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 619AC7AD
-P 12800 10200
-F 0 "#PWR?" H 12800 9950 50  0001 C CNN
-F 1 "GND" H 12805 10027 50  0000 C CNN
-F 2 "" H 12800 10200 50  0001 C CNN
-F 3 "" H 12800 10200 50  0001 C CNN
-	1    12800 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 619ACF0F
-P 12800 8750
-F 0 "#PWR?" H 12800 8500 50  0001 C CNN
-F 1 "GND" H 12805 8577 50  0000 C CNN
-F 2 "" H 12800 8750 50  0001 C CNN
-F 3 "" H 12800 8750 50  0001 C CNN
-	1    12800 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 619AD327
-P 12800 7300
-F 0 "#PWR?" H 12800 7050 50  0001 C CNN
-F 1 "GND" H 12805 7127 50  0000 C CNN
-F 2 "" H 12800 7300 50  0001 C CNN
-F 3 "" H 12800 7300 50  0001 C CNN
-	1    12800 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 619ADA78
-P 12800 5850
-F 0 "#PWR?" H 12800 5600 50  0001 C CNN
-F 1 "GND" H 12805 5677 50  0000 C CNN
-F 2 "" H 12800 5850 50  0001 C CNN
-F 3 "" H 12800 5850 50  0001 C CNN
-	1    12800 5850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12800 4900 12800 4950
-Wire Wire Line
-	12800 4950 12850 4950
-Wire Wire Line
-	12800 6350 12800 6400
-Wire Wire Line
-	12800 6400 12850 6400
-Wire Wire Line
-	12800 5850 12800 5800
-Wire Wire Line
-	12800 5800 12850 5800
-Wire Wire Line
-	12800 7300 12800 7250
-Wire Wire Line
-	12800 7250 12850 7250
-Wire Wire Line
-	12800 7800 12800 7850
-Wire Wire Line
-	12800 7850 12850 7850
-Wire Wire Line
-	12800 8750 12800 8700
-Wire Wire Line
-	12800 8700 12850 8700
-Wire Wire Line
-	12800 9250 12800 9300
-Wire Wire Line
-	12800 9300 12850 9300
-Wire Wire Line
-	12800 10200 12800 10150
-Wire Wire Line
-	12800 10150 12850 10150
-Text Label 11450 7250 0    50   ~ 0
+Text Label 11800 7650 0    50   ~ 0
 A
-Text Label 11450 7150 0    50   ~ 0
+Text Label 11800 7550 0    50   ~ 0
 B
-Text Label 11450 7050 0    50   ~ 0
+Text Label 11800 7450 0    50   ~ 0
 C
-Text Label 11450 6950 0    50   ~ 0
+Text Label 11800 7350 0    50   ~ 0
 D
-Text Label 11450 6850 0    50   ~ 0
+Text Label 11800 7250 0    50   ~ 0
 E
 $Comp
-L Connector:Conn_01x05_Male J?
+L Connector:Conn_01x05_Male Jdecoder_input1
 U 1 1 619CFDE7
-P 11250 7050
-F 0 "J?" H 11358 7431 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 11358 7340 50  0000 C CNN
-F 2 "" H 11250 7050 50  0001 C CNN
-F 3 "~" H 11250 7050 50  0001 C CNN
-	1    11250 7050
+P 11600 7450
+F 0 "Jdecoder_input1" H 11708 7831 50  0000 C CNN
+F 1 "Conn_01x05_Male" H 11708 7740 50  0000 C CNN
+F 2 "" H 11600 7450 50  0001 C CNN
+F 3 "~" H 11600 7450 50  0001 C CNN
+	1    11600 7450
 	1    0    0    -1  
 $EndComp
-Text Label 12850 6550 2    50   ~ 0
+Text Notes 11900 5000 0    50   ~ 0
+The 32 outputs would connect to the ~SS~ pins
+$Comp
+L Connector:Conn_01x04_Male Jalternative_spi1
+U 1 1 61B59428
+P 1550 7050
+F 0 "Jalternative_spi1" V 1704 6762 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 1613 6762 50  0000 R CNN
+F 2 "" H 1550 7050 50  0001 C CNN
+F 3 "~" H 1550 7050 50  0001 C CNN
+	1    1550 7050
+	0    -1   -1   0   
+$EndComp
+Text Label 1750 6850 0    50   ~ 0
+~SS1
+$Comp
+L Connector:Conn_01x04_Male Jalternative_spi2
+U 1 1 61C72CCD
+P 1550 12450
+F 0 "Jalternative_spi2" V 1704 12162 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 1613 12162 50  0000 R CNN
+F 2 "" H 1550 12450 50  0001 C CNN
+F 3 "~" H 1550 12450 50  0001 C CNN
+	1    1550 12450
+	0    -1   -1   0   
+$EndComp
+Text Label 1750 12250 0    50   ~ 0
+~SS2
+$Comp
+L Connector:Conn_01x04_Male Jalternative_spi3
+U 1 1 61C929B0
+P 1550 17800
+F 0 "Jalternative_spi3" V 1704 17512 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 1613 17512 50  0000 R CNN
+F 2 "" H 1550 17800 50  0001 C CNN
+F 3 "~" H 1550 17800 50  0001 C CNN
+	1    1550 17800
+	0    -1   -1   0   
+$EndComp
+Text Label 1750 17600 0    50   ~ 0
+~SS3
+$Comp
+L Connector_Generic:Conn_02x16_Odd_Even Jdecoder_output1
+U 1 1 61D5978D
+P 14800 7450
+F 0 "Jdecoder_output1" H 14850 8367 50  0000 C CNN
+F 1 "Conn_02x16_Odd_Even" H 14850 8276 50  0000 C CNN
+F 2 "" H 14800 7450 50  0001 C CNN
+F 3 "~" H 14800 7450 50  0001 C CNN
+	1    14800 7450
+	1    0    0    -1  
+$EndComp
+Text Label 14600 6750 2    50   ~ 0
+~OSS1
+Text Label 14600 6850 2    50   ~ 0
+~OSS3
+Text Label 14600 6950 2    50   ~ 0
+~OSS5
+Text Label 14600 7050 2    50   ~ 0
+~OSS7
+Text Label 14600 7150 2    50   ~ 0
+~OSS9
+Text Label 14600 7250 2    50   ~ 0
+~OSS11
+Text Label 14600 7350 2    50   ~ 0
+~OSS13
+Text Label 14600 7450 2    50   ~ 0
+~OSS15
+Text Label 14600 7550 2    50   ~ 0
+~OSS17
+Text Label 14600 7650 2    50   ~ 0
+~OSS19
+Text Label 14600 7750 2    50   ~ 0
+~OSS21
+Text Label 14600 7850 2    50   ~ 0
+~OSS23
+Text Label 14600 7950 2    50   ~ 0
+~OSS25
+Text Label 14600 8050 2    50   ~ 0
+~OSS27
+Text Label 14600 8150 2    50   ~ 0
+~OSS29
+Text Label 14600 8250 2    50   ~ 0
+~OSS31
+Text Label 15100 8250 0    50   ~ 0
+~OSS32
+Text Label 15100 8150 0    50   ~ 0
+~OSS30
+Text Label 15100 8050 0    50   ~ 0
+~OSS28
+Text Label 15100 7950 0    50   ~ 0
+~OSS26
+Text Label 15100 7850 0    50   ~ 0
+~OSS24
+Text Label 15100 7750 0    50   ~ 0
+~OSS22
+Text Label 15100 7650 0    50   ~ 0
+~OSS20
+Text Label 15100 7550 0    50   ~ 0
+~OSS18
+Text Label 15100 7450 0    50   ~ 0
+~OSS16
+Text Label 15100 7350 0    50   ~ 0
+~OSS14
+Text Label 15100 7250 0    50   ~ 0
+~OSS12
+Text Label 15100 7150 0    50   ~ 0
+~OSS10
+Text Label 15100 7050 0    50   ~ 0
+~OSS8
+Text Label 15100 6950 0    50   ~ 0
+~OSS6
+Text Label 15100 6850 0    50   ~ 0
+~OSS4
+Text Label 15100 6750 0    50   ~ 0
+~OSS2
+Text Label 13500 8950 0    50   ~ 0
+~OSS32
+Text Label 13500 8850 0    50   ~ 0
+~OSS31
+Text Label 13500 8750 0    50   ~ 0
+~OSS30
+Text Label 13500 8650 0    50   ~ 0
+~OSS29
+Text Label 13500 8550 0    50   ~ 0
+~OSS28
+Text Label 13500 8450 0    50   ~ 0
+~OSS27
+Text Label 13500 8350 0    50   ~ 0
+~OSS26
+Text Label 13500 8250 0    50   ~ 0
+~OSS25
+Text Label 13500 8150 0    50   ~ 0
+~OSS24
+Text Label 13500 8050 0    50   ~ 0
+~OSS23
+Text Label 13500 7950 0    50   ~ 0
+~OSS22
+Text Label 13500 7850 0    50   ~ 0
+~OSS21
+Text Label 13500 7750 0    50   ~ 0
+~OSS20
+Text Label 13500 7650 0    50   ~ 0
+~OSS19
+Text Label 13500 7550 0    50   ~ 0
+~OSS18
+Text Label 13500 7450 0    50   ~ 0
+~OSS17
+Text Label 13500 6550 0    50   ~ 0
+~OSS8
+Text Label 13500 6450 0    50   ~ 0
+~OSS7
+Text Label 13500 6350 0    50   ~ 0
+~OSS6
+Text Label 13500 6250 0    50   ~ 0
+~OSS5
+Text Label 13500 6150 0    50   ~ 0
+~OSS4
+Text Label 13500 6050 0    50   ~ 0
+~OSS3
+Text Label 13500 5950 0    50   ~ 0
+~OSS2
+Text Label 13500 5850 0    50   ~ 0
+~OSS1
+$Sheet
+S 12600 5750 900  3300
+U 622D4548
+F0 "5_to_32_decoder" 50
+F1 "5_to_32_decoder_74hc138.sch" 50
+F2 "VCC" I L 12600 5850 50 
+F3 "GND" I L 12600 6450 50 
+F4 "A4" I L 12600 6350 50 
+F5 "A3" I L 12600 6250 50 
+F6 "A2" I L 12600 6150 50 
+F7 "A1" I L 12600 6050 50 
+F8 "A0" I L 12600 5950 50 
+F9 "~Y0" I R 13500 5850 50 
+F10 "~Y1" I R 13500 5950 50 
+F11 "~Y2" I R 13500 6050 50 
+F12 "~Y3" I R 13500 6150 50 
+F13 "~Y4" I R 13500 6250 50 
+F14 "~Y5" I R 13500 6350 50 
+F15 "~Y6" I R 13500 6450 50 
+F16 "~Y7" I R 13500 6550 50 
+F17 "~Y8" I R 13500 6650 50 
+F18 "~Y9" I R 13500 6750 50 
+F19 "~Y10" I R 13500 6850 50 
+F20 "~Y11" I R 13500 6950 50 
+F21 "~Y12" I R 13500 7050 50 
+F22 "~Y13" I R 13500 7150 50 
+F23 "~Y14" I R 13500 7250 50 
+F24 "~Y15" I R 13500 7350 50 
+F25 "~Y16" I R 13500 7450 50 
+F26 "~Y17" I R 13500 7550 50 
+F27 "~Y18" I R 13500 7650 50 
+F28 "~Y19" I R 13500 7750 50 
+F29 "~Y20" I R 13500 7850 50 
+F30 "~Y21" I R 13500 7950 50 
+F31 "~Y22" I R 13500 8050 50 
+F32 "~Y23" I R 13500 8150 50 
+F33 "~Y24" I R 13500 8250 50 
+F34 "~Y25" I R 13500 8350 50 
+F35 "~Y26" I R 13500 8450 50 
+F36 "~Y27" I R 13500 8550 50 
+F37 "~Y28" I R 13500 8650 50 
+F38 "~Y29" I R 13500 8750 50 
+F39 "~Y30" I R 13500 8850 50 
+F40 "~Y31" I R 13500 8950 50 
+$EndSheet
+Text Label 12600 5950 2    50   ~ 0
 E
-Text Label 12850 5100 2    50   ~ 0
-E
-Text Label 12850 8000 2    50   ~ 0
-E
-Text Label 12850 9450 2    50   ~ 0
-E
-Text Label 12850 5200 2    50   ~ 0
+Text Label 12600 6050 2    50   ~ 0
 D
-Text Label 12850 6650 2    50   ~ 0
-D
-Text Label 12850 8100 2    50   ~ 0
-D
-Text Label 12850 9550 2    50   ~ 0
-D
-Text Label 12850 5300 2    50   ~ 0
+Text Label 12600 6150 2    50   ~ 0
 C
-Text Label 12850 6750 2    50   ~ 0
-C
-Text Label 12850 8200 2    50   ~ 0
-C
-Text Label 12850 9650 2    50   ~ 0
-C
-Text Label 12850 5450 2    50   ~ 0
+Text Label 12600 6250 2    50   ~ 0
 B
-Text Label 12850 5550 2    50   ~ 0
+Text Label 12600 6350 2    50   ~ 0
 A
+Text Label 13500 6650 0    50   ~ 0
+~OSS9
+Text Label 13500 7350 0    50   ~ 0
+~OSS16
+Text Label 13500 7250 0    50   ~ 0
+~OSS15
+Text Label 13500 7150 0    50   ~ 0
+~OSS14
+Text Label 13500 7050 0    50   ~ 0
+~OSS13
+Text Label 13500 6950 0    50   ~ 0
+~OSS12
+Text Label 13500 6850 0    50   ~ 0
+~OSS11
+Text Label 13500 6750 0    50   ~ 0
+~OSS10
 $Comp
 L power:VDD #PWR?
-U 1 1 619F9D26
-P 12650 5550
-F 0 "#PWR?" H 12650 5400 50  0001 C CNN
-F 1 "VDD" H 12665 5723 50  0000 C CNN
-F 2 "" H 12650 5550 50  0001 C CNN
-F 3 "" H 12650 5550 50  0001 C CNN
-	1    12650 5550
+U 1 1 624DF4C0
+P 12500 5750
+F 0 "#PWR?" H 12500 5600 50  0001 C CNN
+F 1 "VDD" H 12515 5923 50  0000 C CNN
+F 2 "" H 12500 5750 50  0001 C CNN
+F 3 "" H 12500 5750 50  0001 C CNN
+	1    12500 5750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12850 5650 12650 5650
+	12600 5850 12500 5850
 Wire Wire Line
-	12650 5650 12650 5550
+	12500 5850 12500 5750
+$Comp
+L power:GND #PWR?
+U 1 1 624FFD89
+P 12500 6550
+F 0 "#PWR?" H 12500 6300 50  0001 C CNN
+F 1 "GND" H 12505 6377 50  0000 C CNN
+F 2 "" H 12500 6550 50  0001 C CNN
+F 3 "" H 12500 6550 50  0001 C CNN
+	1    12500 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 6450 12500 6450
+Wire Wire Line
+	12500 6450 12500 6550
 $EndSCHEMATC
