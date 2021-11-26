@@ -2086,39 +2086,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 17350 6850 17550
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JPe11
-U 1 1 6189BC90
-P 7050 15550
-F 0 "JPe11" V 7050 15600 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 15618 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 15550 50  0001 C CNN
-F 3 "~" H 7050 15550 50  0001 C CNN
-	1    7050 15550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe12
-U 1 1 618EC9AC
-P 7050 16000
-F 0 "JPe12" V 7050 16050 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 16068 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 16000 50  0001 C CNN
-F 3 "~" H 7050 16000 50  0001 C CNN
-	1    7050 16000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe13
-U 1 1 618FABEB
-P 7050 16450
-F 0 "JPe13" V 7050 16500 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 16518 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 16450 50  0001 C CNN
-F 3 "~" H 7050 16450 50  0001 C CNN
-	1    7050 16450
-	-1   0    0    1   
-$EndComp
-$Comp
 L Jumper:SolderJumper_3_Bridged12 JPe14
 U 1 1 618FABF1
 P 7050 16900
@@ -2928,94 +2895,6 @@ Wire Wire Line
 	6650 14600 6650 12950
 Wire Wire Line
 	6650 12950 6450 12950
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe9
-U 1 1 61F2ADDB
-P 7050 14100
-F 0 "JPe9" V 7050 14150 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 14168 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 14100 50  0001 C CNN
-F 3 "~" H 7050 14100 50  0001 C CNN
-	1    7050 14100
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe8
-U 1 1 61F2ADED
-P 7050 13650
-F 0 "JPe8" V 7050 13700 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 13718 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 13650 50  0001 C CNN
-F 3 "~" H 7050 13650 50  0001 C CNN
-	1    7050 13650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe7
-U 1 1 61F2ADF3
-P 7050 13200
-F 0 "JPe7" V 7050 13250 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 13268 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 13200 50  0001 C CNN
-F 3 "~" H 7050 13200 50  0001 C CNN
-	1    7050 13200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe6
-U 1 1 61F2AE05
-P 7050 12750
-F 0 "JPe6" V 7050 12800 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 12818 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 12750 50  0001 C CNN
-F 3 "~" H 7050 12750 50  0001 C CNN
-	1    7050 12750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe5
-U 1 1 61F2AE0B
-P 7050 12250
-F 0 "JPe5" V 7050 12300 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 12318 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 12250 50  0001 C CNN
-F 3 "~" H 7050 12250 50  0001 C CNN
-	1    7050 12250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe4
-U 1 1 61F2AE1D
-P 7050 11800
-F 0 "JPe4" V 7050 11850 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 11868 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 11800 50  0001 C CNN
-F 3 "~" H 7050 11800 50  0001 C CNN
-	1    7050 11800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe3
-U 1 1 61F2AE23
-P 7050 11350
-F 0 "JPe3" V 7050 11400 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 11418 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 11350 50  0001 C CNN
-F 3 "~" H 7050 11350 50  0001 C CNN
-	1    7050 11350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe2
-U 1 1 61F2AE35
-P 7050 10900
-F 0 "JPe2" V 7050 10950 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 10968 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 10900 50  0001 C CNN
-F 3 "~" H 7050 10900 50  0001 C CNN
-	1    7050 10900
-	-1   0    0    1   
-$EndComp
 Text Label 7250 12250 0    50   ~ 0
 Electrode5
 Text Label 7250 12750 0    50   ~ 0
@@ -3034,30 +2913,8 @@ Text Label 7250 10900 0    50   ~ 0
 Electrode2
 Text Label 7250 10450 0    50   ~ 0
 Electrode1
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe1
-U 1 1 61F2AE41
-P 7050 10450
-F 0 "JPe1" V 7050 10500 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 10518 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 10450 50  0001 C CNN
-F 3 "~" H 7050 10450 50  0001 C CNN
-	1    7050 10450
-	-1   0    0    1   
-$EndComp
 Text Label 7250 14600 0    50   ~ 0
 Electrode10
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JPe10
-U 1 1 61F2ADC9
-P 7050 14600
-F 0 "JPe10" V 7050 14650 50  0000 L CNN
-F 1 "Jumper_3_B12" V 7095 14668 50  0001 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 7050 14600 50  0001 C CNN
-F 3 "~" H 7050 14600 50  0001 C CNN
-	1    7050 14600
-	-1   0    0    1   
-$EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E10
 U 1 1 62DA442A
@@ -3398,5 +3255,27 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4950 10900 50  
 F 3 "~" H 4950 10900 50  0001 C CNN
 	1    4950 10900
 	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JPe?
+U 1 1 63960F52
+P 7050 10450
+F 0 "JPe?" H 7050 10655 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 7050 10564 50  0000 C CNN
+F 2 "" H 7050 10450 50  0001 C CNN
+F 3 "~" H 7050 10450 50  0001 C CNN
+	1    7050 10450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JPe?
+U 1 1 639CAD31
+P 7050 10900
+F 0 "JPe?" H 7050 11105 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 7050 11014 50  0000 C CNN
+F 2 "" H 7050 10900 50  0001 C CNN
+F 3 "~" H 7050 10900 50  0001 C CNN
+	1    7050 10900
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
