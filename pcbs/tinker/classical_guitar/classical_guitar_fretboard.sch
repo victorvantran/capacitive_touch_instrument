@@ -38,61 +38,61 @@ F 3 "~" H 7500 2200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5000 2250 5000 2450
+	5000 2300 5000 2500
 Wire Wire Line
-	5300 2250 5000 2250
+	5300 2300 5000 2300
 Wire Wire Line
-	5300 2050 5300 2250
+	5300 2100 5300 2300
 Wire Wire Line
-	4900 2050 4900 2450
+	4900 2100 4900 2500
 Wire Wire Line
-	4800 2250 4800 2450
+	4800 2300 4800 2500
 Wire Wire Line
-	4500 2250 4800 2250
+	4500 2300 4800 2300
 Wire Wire Line
-	4500 2050 4500 2250
+	4500 2100 4500 2300
 $Comp
 L Connector:Conn_01x03_Male Jch1
 U 1 1 61AF7A25
-P 4900 2650
-F 0 "Jch1" V 4962 2794 50  0000 L CNN
-F 1 "Conn_01x03_Male" V 5053 2794 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4900 2650 50  0001 C CNN
-F 3 "~" H 4900 2650 50  0001 C CNN
-	1    4900 2650
+P 4900 2700
+F 0 "Jch1" V 4962 2844 50  0000 L CNN
+F 1 "Conn_01x03_Male" V 5053 2844 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4900 2700 50  0001 C CNN
+F 3 "~" H 4900 2700 50  0001 C CNN
+	1    4900 2700
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5300 1650 4900 1650
-Connection ~ 4900 1650
+	5300 1700 4900 1700
+Connection ~ 4900 1700
 Wire Wire Line
-	4900 1650 4900 1550
-Text Label 5150 1850 3    50   ~ 0
+	4900 1700 4900 1600
+Text Label 5150 1900 3    50   ~ 0
 Change3
-Text Label 4750 1850 3    50   ~ 0
+Text Label 4750 1900 3    50   ~ 0
 Change2
 Wire Wire Line
-	4900 1250 4900 1350
+	4900 1300 4900 1400
 $Comp
 L power:VDD #PWR016
 U 1 1 61ACF533
-P 4900 1250
-F 0 "#PWR016" H 4900 1100 50  0001 C CNN
-F 1 "VDD" H 4915 1423 50  0000 C CNN
-F 2 "" H 4900 1250 50  0001 C CNN
-F 3 "" H 4900 1250 50  0001 C CNN
-	1    4900 1250
+P 4900 1300
+F 0 "#PWR016" H 4900 1150 50  0001 C CNN
+F 1 "VDD" H 4915 1473 50  0000 C CNN
+F 2 "" H 4900 1300 50  0001 C CNN
+F 3 "" H 4900 1300 50  0001 C CNN
+	1    4900 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small Rch1
 U 1 1 61AAD6B4
-P 4900 1450
-F 0 "Rch1" H 4841 1404 50  0000 R CNN
-F 1 "100k" H 4841 1495 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4900 1450 50  0001 C CNN
-F 3 "~" H 4900 1450 50  0001 C CNN
-	1    4900 1450
+P 4900 1500
+F 0 "Rch1" H 4841 1454 50  0000 R CNN
+F 1 "100k" H 4841 1545 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4900 1500 50  0001 C CNN
+F 3 "~" H 4900 1500 50  0001 C CNN
+	1    4900 1500
 	-1   0    0    1   
 $EndComp
 Text Label 6050 1850 3    50   ~ 0
@@ -354,174 +354,6 @@ F 3 "~" H 2900 5200 50  0001 C CNN
 $EndComp
 Text Notes 2750 4450 0    50   ~ 0
 The 32 outputs would connect to the ~SS~ pins
-$Comp
-L Connector_Generic:Conn_02x16_Odd_Even Jdecoder_output1
-U 1 1 61D5978D
-P 5700 6400
-F 0 "Jdecoder_output1" H 5750 7317 50  0000 C CNN
-F 1 "Conn_02x16_Odd_Even" H 5750 7226 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical" H 5700 6400 50  0001 C CNN
-F 3 "~" H 5700 6400 50  0001 C CNN
-	1    5700 6400
-	1    0    0    -1  
-$EndComp
-Text Label 5500 5700 2    50   ~ 0
-~OSS1
-Text Label 5500 5800 2    50   ~ 0
-~OSS3
-Text Label 5500 5900 2    50   ~ 0
-~OSS5
-Text Label 5500 6000 2    50   ~ 0
-~OSS7
-Text Label 5500 6100 2    50   ~ 0
-~OSS9
-Text Label 5500 6200 2    50   ~ 0
-~OSS11
-Text Label 5500 6300 2    50   ~ 0
-~OSS13
-Text Label 5500 6400 2    50   ~ 0
-~OSS15
-Text Label 5500 6500 2    50   ~ 0
-~OSS17
-Text Label 5500 6600 2    50   ~ 0
-~OSS19
-Text Label 5500 6700 2    50   ~ 0
-~OSS21
-Text Label 5500 6800 2    50   ~ 0
-~OSS23
-Text Label 5500 6900 2    50   ~ 0
-~OSS25
-Text Label 5500 7000 2    50   ~ 0
-~OSS27
-Text Label 5500 7100 2    50   ~ 0
-~OSS29
-Text Label 5500 7200 2    50   ~ 0
-~OSS31
-Text Label 6000 7200 0    50   ~ 0
-~OSS32
-Text Label 6000 7100 0    50   ~ 0
-~OSS30
-Text Label 6000 7000 0    50   ~ 0
-~OSS28
-Text Label 6000 6900 0    50   ~ 0
-~OSS26
-Text Label 6000 6800 0    50   ~ 0
-~OSS24
-Text Label 6000 6700 0    50   ~ 0
-~OSS22
-Text Label 6000 6600 0    50   ~ 0
-~OSS20
-Text Label 6000 6500 0    50   ~ 0
-~OSS18
-Text Label 6000 6400 0    50   ~ 0
-~OSS16
-Text Label 6000 6300 0    50   ~ 0
-~OSS14
-Text Label 6000 6200 0    50   ~ 0
-~OSS12
-Text Label 6000 6100 0    50   ~ 0
-~OSS10
-Text Label 6000 6000 0    50   ~ 0
-~OSS8
-Text Label 6000 5900 0    50   ~ 0
-~OSS6
-Text Label 6000 5800 0    50   ~ 0
-~OSS4
-Text Label 6000 5700 0    50   ~ 0
-~OSS2
-Text Label 4600 8000 0    50   ~ 0
-~OSS32
-Text Label 4600 7900 0    50   ~ 0
-~OSS31
-Text Label 4600 7800 0    50   ~ 0
-~OSS30
-Text Label 4600 7700 0    50   ~ 0
-~OSS29
-Text Label 4600 7600 0    50   ~ 0
-~OSS28
-Text Label 4600 7500 0    50   ~ 0
-~OSS27
-Text Label 4600 7400 0    50   ~ 0
-~OSS26
-Text Label 4600 7300 0    50   ~ 0
-~OSS25
-Text Label 4600 7200 0    50   ~ 0
-~OSS24
-Text Label 4600 7100 0    50   ~ 0
-~OSS23
-Text Label 4600 7000 0    50   ~ 0
-~OSS22
-Text Label 4600 6900 0    50   ~ 0
-~OSS21
-Text Label 4600 6800 0    50   ~ 0
-~OSS20
-Text Label 4600 6700 0    50   ~ 0
-~OSS19
-Text Label 4600 6600 0    50   ~ 0
-~OSS18
-Text Label 4600 6500 0    50   ~ 0
-~OSS17
-Text Label 4600 5600 0    50   ~ 0
-~OSS8
-Text Label 4600 5500 0    50   ~ 0
-~OSS7
-Text Label 4600 5400 0    50   ~ 0
-~OSS6
-Text Label 4600 5300 0    50   ~ 0
-~OSS5
-Text Label 4600 5200 0    50   ~ 0
-~OSS4
-Text Label 4600 5100 0    50   ~ 0
-~OSS3
-Text Label 4600 5000 0    50   ~ 0
-~OSS2
-Text Label 4600 4900 0    50   ~ 0
-~OSS1
-$Sheet
-S 3700 4800 900  3300
-U 622D4548
-F0 "5_to_32_decoder" 50
-F1 "5_to_32_decoder_74hc138.sch" 50
-F2 "VCC" I L 3700 4900 50 
-F3 "GND" I L 3700 5500 50 
-F4 "A4" I L 3700 5400 50 
-F5 "A3" I L 3700 5300 50 
-F6 "A2" I L 3700 5200 50 
-F7 "A1" I L 3700 5100 50 
-F8 "A0" I L 3700 5000 50 
-F9 "~Y0" I R 4600 4900 50 
-F10 "~Y1" I R 4600 5000 50 
-F11 "~Y2" I R 4600 5100 50 
-F12 "~Y3" I R 4600 5200 50 
-F13 "~Y4" I R 4600 5300 50 
-F14 "~Y5" I R 4600 5400 50 
-F15 "~Y6" I R 4600 5500 50 
-F16 "~Y7" I R 4600 5600 50 
-F17 "~Y8" I R 4600 5700 50 
-F18 "~Y9" I R 4600 5800 50 
-F19 "~Y10" I R 4600 5900 50 
-F20 "~Y11" I R 4600 6000 50 
-F21 "~Y12" I R 4600 6100 50 
-F22 "~Y13" I R 4600 6200 50 
-F23 "~Y14" I R 4600 6300 50 
-F24 "~Y15" I R 4600 6400 50 
-F25 "~Y16" I R 4600 6500 50 
-F26 "~Y17" I R 4600 6600 50 
-F27 "~Y18" I R 4600 6700 50 
-F28 "~Y19" I R 4600 6800 50 
-F29 "~Y20" I R 4600 6900 50 
-F30 "~Y21" I R 4600 7000 50 
-F31 "~Y22" I R 4600 7100 50 
-F32 "~Y23" I R 4600 7200 50 
-F33 "~Y24" I R 4600 7300 50 
-F34 "~Y25" I R 4600 7400 50 
-F35 "~Y26" I R 4600 7500 50 
-F36 "~Y27" I R 4600 7600 50 
-F37 "~Y28" I R 4600 7700 50 
-F38 "~Y29" I R 4600 7800 50 
-F39 "~Y30" I R 4600 7900 50 
-F40 "~Y31" I R 4600 8000 50 
-$EndSheet
 Text Label 3700 5000 2    50   ~ 0
 E
 Text Label 3700 5100 2    50   ~ 0
@@ -532,22 +364,6 @@ Text Label 3700 5300 2    50   ~ 0
 B
 Text Label 3700 5400 2    50   ~ 0
 A
-Text Label 4600 5700 0    50   ~ 0
-~OSS9
-Text Label 4600 6400 0    50   ~ 0
-~OSS16
-Text Label 4600 6300 0    50   ~ 0
-~OSS15
-Text Label 4600 6200 0    50   ~ 0
-~OSS14
-Text Label 4600 6100 0    50   ~ 0
-~OSS13
-Text Label 4600 6000 0    50   ~ 0
-~OSS12
-Text Label 4600 5900 0    50   ~ 0
-~OSS11
-Text Label 4600 5800 0    50   ~ 0
-~OSS10
 $Comp
 L power:VDD #PWR0101
 U 1 1 624DF4C0
@@ -869,17 +685,17 @@ Text Label 2650 22050 2    50   ~ 0
 MISO3
 Text Label 2650 22150 2    50   ~ 0
 SCK3
-Text Label 1850 21850 2    50   ~ 0
-SCK3
 Text Label 1700 22050 2    50   ~ 0
+SCK3
+Text Label 1850 21850 2    50   ~ 0
 C_SCK
-Text Label 1050 21850 2    50   ~ 0
-MOSI3
 Text Label 900  22050 2    50   ~ 0
+MOSI3
+Text Label 1050 21850 2    50   ~ 0
 C_MOSI
-Text Label 1300 22050 2    50   ~ 0
-C_MISO
 Text Label 1450 21850 2    50   ~ 0
+C_MISO
+Text Label 1300 22050 2    50   ~ 0
 MISO3
 Wire Wire Line
 	1050 22250 1050 22350
@@ -1322,25 +1138,25 @@ Wire Wire Line
 	6850 24450 6700 24450
 Wire Wire Line
 	6850 24950 6650 24950
-Text Label 7250 20800 0    50   ~ 0
+Text Label 7050 20650 0    50   ~ 0
 Electrode21
-Text Label 7250 24950 0    50   ~ 0
+Text Label 7050 24800 0    50   ~ 0
 Electrode30
-Text Label 7250 24450 0    50   ~ 0
+Text Label 7050 24300 0    50   ~ 0
 Electrode29
-Text Label 7250 24000 0    50   ~ 0
+Text Label 7050 23850 0    50   ~ 0
 Electrode28
-Text Label 7250 23550 0    50   ~ 0
+Text Label 7050 23400 0    50   ~ 0
 Electrode27
-Text Label 7250 23100 0    50   ~ 0
+Text Label 7050 22950 0    50   ~ 0
 Electrode26
-Text Label 7250 22600 0    50   ~ 0
+Text Label 7050 22450 0    50   ~ 0
 Electrode25
-Text Label 7250 22150 0    50   ~ 0
+Text Label 7050 22000 0    50   ~ 0
 Electrode24
-Text Label 7250 21700 0    50   ~ 0
+Text Label 7050 21550 0    50   ~ 0
 Electrode23
-Text Label 7250 21250 0    50   ~ 0
+Text Label 7050 21100 0    50   ~ 0
 Electrode22
 Wire Wire Line
 	6650 23300 6450 23300
@@ -1772,17 +1588,17 @@ F 3 "" H 2550 16000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2550 16200 2550 16300
-Text Label 1850 16500 2    50   ~ 0
-SCK2
 Text Label 1700 16700 2    50   ~ 0
+SCK2
+Text Label 1850 16500 2    50   ~ 0
 C_SCK
-Text Label 1050 16500 2    50   ~ 0
-MOSI2
 Text Label 900  16700 2    50   ~ 0
+MOSI2
+Text Label 1050 16500 2    50   ~ 0
 C_MOSI
-Text Label 1300 16700 2    50   ~ 0
-C_MISO
 Text Label 1450 16500 2    50   ~ 0
+C_MISO
+Text Label 1300 16700 2    50   ~ 0
 MISO2
 Wire Wire Line
 	1050 16900 1050 17000
@@ -1872,23 +1688,23 @@ Wire Wire Line
 	6850 17550 6450 17550
 Wire Wire Line
 	6850 17350 6850 17550
-Text Label 7250 19700 0    50   ~ 0
+Text Label 7050 19550 0    50   ~ 0
 Electrode20
-Text Label 7250 19200 0    50   ~ 0
+Text Label 7050 19050 0    50   ~ 0
 Electrode19
-Text Label 7250 18750 0    50   ~ 0
+Text Label 7050 18600 0    50   ~ 0
 Electrode18
-Text Label 7250 18300 0    50   ~ 0
+Text Label 7050 18150 0    50   ~ 0
 Electrode17
-Text Label 7250 17850 0    50   ~ 0
+Text Label 7050 17700 0    50   ~ 0
 Electrode16
-Text Label 7250 17350 0    50   ~ 0
+Text Label 7050 17200 0    50   ~ 0
 Electrode15
-Text Label 7250 16900 0    50   ~ 0
+Text Label 7050 16750 0    50   ~ 0
 Electrode14
-Text Label 7250 16450 0    50   ~ 0
+Text Label 7050 16300 0    50   ~ 0
 Electrode13
-Text Label 7250 16000 0    50   ~ 0
+Text Label 7050 15850 0    50   ~ 0
 Electrode12
 $Comp
 L Connector:Conn_01x10_Male Je2
@@ -1901,7 +1717,7 @@ F 3 "~" H 6250 17550 50  0001 C CNN
 	1    6250 17550
 	1    0    0    -1  
 $EndComp
-Text Label 7250 15550 0    50   ~ 0
+Text Label 7050 15400 0    50   ~ 0
 Electrode11
 Connection ~ 3300 15900
 Connection ~ 3300 19250
@@ -1971,16 +1787,12 @@ F 3 "~" H 1450 11900 50  0001 C CNN
 	1    1450 11900
 	0    -1   -1   0   
 $EndComp
-Text Label 1850 11100 2    50   ~ 0
-SCK1
 Text Label 1700 11300 2    50   ~ 0
-C_SCK
-Text Label 1050 11100 2    50   ~ 0
-MOSI1
+SCK1
 Text Label 900  11300 2    50   ~ 0
+MOSI1
+Text Label 1050 11100 2    50   ~ 0
 C_MOSI
-Text Label 1300 11300 2    50   ~ 0
-C_MISO
 Wire Wire Line
 	1050 11500 1050 11600
 Wire Wire Line
@@ -2280,7 +2092,7 @@ F 3 "" H 3350 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 1400 3350 1300
-Text Label 1450 11100 2    50   ~ 0
+Text Label 1300 11300 2    50   ~ 0
 MISO1
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -2301,221 +2113,221 @@ Wire Notes Line
 $Comp
 L Custom_Sensor_Touch:Electrode E30
 U 1 1 62DCDBAD
-P 7150 24650
-F 0 "E30" H 7278 24551 50  0000 L CNN
-F 1 "Electrode" H 7278 24460 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 24650 50  0001 C CNN
-F 3 "" H 7150 24650 50  0001 C CNN
-	1    7150 24650
+P 7350 24800
+F 0 "E30" H 7478 24701 50  0000 L CNN
+F 1 "Electrode" H 7478 24610 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 24800 50  0001 C CNN
+F 3 "" H 7350 24800 50  0001 C CNN
+	1    7350 24800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E29
 U 1 1 62DCDBB3
-P 7150 24150
-F 0 "E29" H 7278 24051 50  0000 L CNN
-F 1 "Electrode" H 7278 23960 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 24150 50  0001 C CNN
-F 3 "" H 7150 24150 50  0001 C CNN
-	1    7150 24150
+P 7350 24300
+F 0 "E29" H 7478 24201 50  0000 L CNN
+F 1 "Electrode" H 7478 24110 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 24300 50  0001 C CNN
+F 3 "" H 7350 24300 50  0001 C CNN
+	1    7350 24300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E27
 U 1 1 62DCDBB9
-P 7150 23250
-F 0 "E27" H 7278 23151 50  0000 L CNN
-F 1 "Electrode" H 7278 23060 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 23250 50  0001 C CNN
-F 3 "" H 7150 23250 50  0001 C CNN
-	1    7150 23250
+P 7350 23400
+F 0 "E27" H 7478 23301 50  0000 L CNN
+F 1 "Electrode" H 7478 23210 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 23400 50  0001 C CNN
+F 3 "" H 7350 23400 50  0001 C CNN
+	1    7350 23400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E26
 U 1 1 62DCDBBF
-P 7150 22800
-F 0 "E26" H 7278 22701 50  0000 L CNN
-F 1 "Electrode" H 7278 22610 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 22800 50  0001 C CNN
-F 3 "" H 7150 22800 50  0001 C CNN
-	1    7150 22800
+P 7350 22950
+F 0 "E26" H 7478 22851 50  0000 L CNN
+F 1 "Electrode" H 7478 22760 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 22950 50  0001 C CNN
+F 3 "" H 7350 22950 50  0001 C CNN
+	1    7350 22950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E28
 U 1 1 62DCDBC5
-P 7150 23700
-F 0 "E28" H 7278 23601 50  0000 L CNN
-F 1 "Electrode" H 7278 23510 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 23700 50  0001 C CNN
-F 3 "" H 7150 23700 50  0001 C CNN
-	1    7150 23700
+P 7350 23850
+F 0 "E28" H 7478 23751 50  0000 L CNN
+F 1 "Electrode" H 7478 23660 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 23850 50  0001 C CNN
+F 3 "" H 7350 23850 50  0001 C CNN
+	1    7350 23850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E25
 U 1 1 62DCDBCB
-P 7150 22300
-F 0 "E25" H 7278 22201 50  0000 L CNN
-F 1 "Electrode" H 7278 22110 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 22300 50  0001 C CNN
-F 3 "" H 7150 22300 50  0001 C CNN
-	1    7150 22300
+P 7350 22450
+F 0 "E25" H 7478 22351 50  0000 L CNN
+F 1 "Electrode" H 7478 22260 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 22450 50  0001 C CNN
+F 3 "" H 7350 22450 50  0001 C CNN
+	1    7350 22450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E24
 U 1 1 62DCDBD1
-P 7150 21850
-F 0 "E24" H 7278 21751 50  0000 L CNN
-F 1 "Electrode" H 7278 21660 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 21850 50  0001 C CNN
-F 3 "" H 7150 21850 50  0001 C CNN
-	1    7150 21850
+P 7350 22000
+F 0 "E24" H 7478 21901 50  0000 L CNN
+F 1 "Electrode" H 7478 21810 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 22000 50  0001 C CNN
+F 3 "" H 7350 22000 50  0001 C CNN
+	1    7350 22000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E23
 U 1 1 62DCDBD7
-P 7150 21400
-F 0 "E23" H 7278 21301 50  0000 L CNN
-F 1 "Electrode" H 7278 21210 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 21400 50  0001 C CNN
-F 3 "" H 7150 21400 50  0001 C CNN
-	1    7150 21400
+P 7350 21550
+F 0 "E23" H 7478 21451 50  0000 L CNN
+F 1 "Electrode" H 7478 21360 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 21550 50  0001 C CNN
+F 3 "" H 7350 21550 50  0001 C CNN
+	1    7350 21550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E22
 U 1 1 62DCDBDD
-P 7150 20950
-F 0 "E22" H 7278 20851 50  0000 L CNN
-F 1 "Electrode" H 7278 20760 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 20950 50  0001 C CNN
-F 3 "" H 7150 20950 50  0001 C CNN
-	1    7150 20950
+P 7350 21100
+F 0 "E22" H 7478 21001 50  0000 L CNN
+F 1 "Electrode" H 7478 20910 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 21100 50  0001 C CNN
+F 3 "" H 7350 21100 50  0001 C CNN
+	1    7350 21100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E21
 U 1 1 62DCDBE3
-P 7150 20500
-F 0 "E21" H 7278 20401 50  0000 L CNN
-F 1 "Electrode" H 7278 20310 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 20500 50  0001 C CNN
-F 3 "" H 7150 20500 50  0001 C CNN
-	1    7150 20500
+P 7350 20650
+F 0 "E21" H 7478 20551 50  0000 L CNN
+F 1 "Electrode" H 7478 20460 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 20650 50  0001 C CNN
+F 3 "" H 7350 20650 50  0001 C CNN
+	1    7350 20650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E20
 U 1 1 62DF4A8D
-P 7150 19400
-F 0 "E20" H 7278 19301 50  0000 L CNN
-F 1 "Electrode" H 7278 19210 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 19400 50  0001 C CNN
-F 3 "" H 7150 19400 50  0001 C CNN
-	1    7150 19400
+P 7350 19550
+F 0 "E20" H 7478 19451 50  0000 L CNN
+F 1 "Electrode" H 7478 19360 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 19550 50  0001 C CNN
+F 3 "" H 7350 19550 50  0001 C CNN
+	1    7350 19550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E19
 U 1 1 62DF4A93
-P 7150 18900
-F 0 "E19" H 7278 18801 50  0000 L CNN
-F 1 "Electrode" H 7278 18710 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 18900 50  0001 C CNN
-F 3 "" H 7150 18900 50  0001 C CNN
-	1    7150 18900
+P 7350 19050
+F 0 "E19" H 7478 18951 50  0000 L CNN
+F 1 "Electrode" H 7478 18860 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 19050 50  0001 C CNN
+F 3 "" H 7350 19050 50  0001 C CNN
+	1    7350 19050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E17
 U 1 1 62DF4A99
-P 7150 18000
-F 0 "E17" H 7278 17901 50  0000 L CNN
-F 1 "Electrode" H 7278 17810 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 18000 50  0001 C CNN
-F 3 "" H 7150 18000 50  0001 C CNN
-	1    7150 18000
+P 7350 18150
+F 0 "E17" H 7478 18051 50  0000 L CNN
+F 1 "Electrode" H 7478 17960 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 18150 50  0001 C CNN
+F 3 "" H 7350 18150 50  0001 C CNN
+	1    7350 18150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E16
 U 1 1 62DF4A9F
-P 7150 17550
-F 0 "E16" H 7278 17451 50  0000 L CNN
-F 1 "Electrode" H 7278 17360 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 17550 50  0001 C CNN
-F 3 "" H 7150 17550 50  0001 C CNN
-	1    7150 17550
+P 7350 17700
+F 0 "E16" H 7478 17601 50  0000 L CNN
+F 1 "Electrode" H 7478 17510 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 17700 50  0001 C CNN
+F 3 "" H 7350 17700 50  0001 C CNN
+	1    7350 17700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E18
 U 1 1 62DF4AA5
-P 7150 18450
-F 0 "E18" H 7278 18351 50  0000 L CNN
-F 1 "Electrode" H 7278 18260 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 18450 50  0001 C CNN
-F 3 "" H 7150 18450 50  0001 C CNN
-	1    7150 18450
+P 7350 18600
+F 0 "E18" H 7478 18501 50  0000 L CNN
+F 1 "Electrode" H 7478 18410 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 18600 50  0001 C CNN
+F 3 "" H 7350 18600 50  0001 C CNN
+	1    7350 18600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E15
 U 1 1 62DF4AAB
-P 7150 17050
-F 0 "E15" H 7278 16951 50  0000 L CNN
-F 1 "Electrode" H 7278 16860 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 17050 50  0001 C CNN
-F 3 "" H 7150 17050 50  0001 C CNN
-	1    7150 17050
+P 7350 17200
+F 0 "E15" H 7478 17101 50  0000 L CNN
+F 1 "Electrode" H 7478 17010 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 17200 50  0001 C CNN
+F 3 "" H 7350 17200 50  0001 C CNN
+	1    7350 17200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E14
 U 1 1 62DF4AB1
-P 7150 16600
-F 0 "E14" H 7278 16501 50  0000 L CNN
-F 1 "Electrode" H 7278 16410 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 16600 50  0001 C CNN
-F 3 "" H 7150 16600 50  0001 C CNN
-	1    7150 16600
+P 7350 16750
+F 0 "E14" H 7478 16651 50  0000 L CNN
+F 1 "Electrode" H 7478 16560 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 16750 50  0001 C CNN
+F 3 "" H 7350 16750 50  0001 C CNN
+	1    7350 16750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E13
 U 1 1 62DF4AB7
-P 7150 16150
-F 0 "E13" H 7278 16051 50  0000 L CNN
-F 1 "Electrode" H 7278 15960 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 16150 50  0001 C CNN
-F 3 "" H 7150 16150 50  0001 C CNN
-	1    7150 16150
+P 7350 16300
+F 0 "E13" H 7478 16201 50  0000 L CNN
+F 1 "Electrode" H 7478 16110 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 16300 50  0001 C CNN
+F 3 "" H 7350 16300 50  0001 C CNN
+	1    7350 16300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E12
 U 1 1 62DF4ABD
-P 7150 15700
-F 0 "E12" H 7278 15601 50  0000 L CNN
-F 1 "Electrode" H 7278 15510 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 15700 50  0001 C CNN
-F 3 "" H 7150 15700 50  0001 C CNN
-	1    7150 15700
+P 7350 15850
+F 0 "E12" H 7478 15751 50  0000 L CNN
+F 1 "Electrode" H 7478 15660 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 15850 50  0001 C CNN
+F 3 "" H 7350 15850 50  0001 C CNN
+	1    7350 15850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E11
 U 1 1 62DF4AC3
-P 7150 15250
-F 0 "E11" H 7278 15151 50  0000 L CNN
-F 1 "Electrode" H 7278 15060 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 15250 50  0001 C CNN
-F 3 "" H 7150 15250 50  0001 C CNN
-	1    7150 15250
+P 7350 15400
+F 0 "E11" H 7478 15301 50  0000 L CNN
+F 1 "Electrode" H 7478 15210 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 15400 50  0001 C CNN
+F 3 "" H 7350 15400 50  0001 C CNN
+	1    7350 15400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2572,134 +2384,134 @@ Wire Wire Line
 	6650 14600 6650 12950
 Wire Wire Line
 	6650 12950 6450 12950
-Text Label 7250 12250 0    50   ~ 0
+Text Label 7050 12100 0    50   ~ 0
 Electrode5
-Text Label 7250 12750 0    50   ~ 0
+Text Label 7050 12600 0    50   ~ 0
 Electrode6
-Text Label 7250 13200 0    50   ~ 0
+Text Label 7050 13050 0    50   ~ 0
 Electrode7
-Text Label 7250 13650 0    50   ~ 0
+Text Label 7050 13500 0    50   ~ 0
 Electrode8
-Text Label 7250 14100 0    50   ~ 0
+Text Label 7050 13950 0    50   ~ 0
 Electrode9
-Text Label 7250 11800 0    50   ~ 0
+Text Label 7050 11650 0    50   ~ 0
 Electrode4
-Text Label 7250 11350 0    50   ~ 0
+Text Label 7050 11200 0    50   ~ 0
 Electrode3
-Text Label 7250 10900 0    50   ~ 0
+Text Label 7050 10750 0    50   ~ 0
 Electrode2
-Text Label 7250 10450 0    50   ~ 0
+Text Label 7050 10300 0    50   ~ 0
 Electrode1
-Text Label 7250 14600 0    50   ~ 0
+Text Label 7050 14450 0    50   ~ 0
 Electrode10
 $Comp
 L Custom_Sensor_Touch:Electrode E10
 U 1 1 62DA442A
-P 7150 14300
-F 0 "E10" H 7278 14201 50  0000 L CNN
-F 1 "Electrode" H 7278 14110 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 14300 50  0001 C CNN
-F 3 "" H 7150 14300 50  0001 C CNN
-	1    7150 14300
+P 7350 14450
+F 0 "E10" H 7478 14351 50  0000 L CNN
+F 1 "Electrode" H 7478 14260 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 14450 50  0001 C CNN
+F 3 "" H 7350 14450 50  0001 C CNN
+	1    7350 14450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E9
 U 1 1 62DA4430
-P 7150 13800
-F 0 "E9" H 7278 13701 50  0000 L CNN
-F 1 "Electrode" H 7278 13610 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 13800 50  0001 C CNN
-F 3 "" H 7150 13800 50  0001 C CNN
-	1    7150 13800
+P 7350 13950
+F 0 "E9" H 7478 13851 50  0000 L CNN
+F 1 "Electrode" H 7478 13760 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 13950 50  0001 C CNN
+F 3 "" H 7350 13950 50  0001 C CNN
+	1    7350 13950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E7
 U 1 1 62DA4436
-P 7150 12900
-F 0 "E7" H 7278 12801 50  0000 L CNN
-F 1 "Electrode" H 7278 12710 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 12900 50  0001 C CNN
-F 3 "" H 7150 12900 50  0001 C CNN
-	1    7150 12900
+P 7350 13050
+F 0 "E7" H 7478 12951 50  0000 L CNN
+F 1 "Electrode" H 7478 12860 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 13050 50  0001 C CNN
+F 3 "" H 7350 13050 50  0001 C CNN
+	1    7350 13050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E6
 U 1 1 62DA443C
-P 7150 12450
-F 0 "E6" H 7278 12351 50  0000 L CNN
-F 1 "Electrode" H 7278 12260 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 12450 50  0001 C CNN
-F 3 "" H 7150 12450 50  0001 C CNN
-	1    7150 12450
+P 7350 12600
+F 0 "E6" H 7478 12501 50  0000 L CNN
+F 1 "Electrode" H 7478 12410 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 12600 50  0001 C CNN
+F 3 "" H 7350 12600 50  0001 C CNN
+	1    7350 12600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E8
 U 1 1 62DA4442
-P 7150 13350
-F 0 "E8" H 7278 13251 50  0000 L CNN
-F 1 "Electrode" H 7278 13160 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 13350 50  0001 C CNN
-F 3 "" H 7150 13350 50  0001 C CNN
-	1    7150 13350
+P 7350 13500
+F 0 "E8" H 7478 13401 50  0000 L CNN
+F 1 "Electrode" H 7478 13310 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 13500 50  0001 C CNN
+F 3 "" H 7350 13500 50  0001 C CNN
+	1    7350 13500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E5
 U 1 1 62DA4448
-P 7150 11950
-F 0 "E5" H 7278 11851 50  0000 L CNN
-F 1 "Electrode" H 7278 11760 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 11950 50  0001 C CNN
-F 3 "" H 7150 11950 50  0001 C CNN
-	1    7150 11950
+P 7350 12100
+F 0 "E5" H 7478 12001 50  0000 L CNN
+F 1 "Electrode" H 7478 11910 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 12100 50  0001 C CNN
+F 3 "" H 7350 12100 50  0001 C CNN
+	1    7350 12100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E4
 U 1 1 62DA444E
-P 7150 11500
-F 0 "E4" H 7278 11401 50  0000 L CNN
-F 1 "Electrode" H 7278 11310 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 11500 50  0001 C CNN
-F 3 "" H 7150 11500 50  0001 C CNN
-	1    7150 11500
+P 7350 11650
+F 0 "E4" H 7478 11551 50  0000 L CNN
+F 1 "Electrode" H 7478 11460 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 11650 50  0001 C CNN
+F 3 "" H 7350 11650 50  0001 C CNN
+	1    7350 11650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E3
 U 1 1 62DA4454
-P 7150 11050
-F 0 "E3" H 7278 10951 50  0000 L CNN
-F 1 "Electrode" H 7278 10860 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 11050 50  0001 C CNN
-F 3 "" H 7150 11050 50  0001 C CNN
-	1    7150 11050
+P 7350 11200
+F 0 "E3" H 7478 11101 50  0000 L CNN
+F 1 "Electrode" H 7478 11010 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 11200 50  0001 C CNN
+F 3 "" H 7350 11200 50  0001 C CNN
+	1    7350 11200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E2
 U 1 1 62DA445A
-P 7150 10600
-F 0 "E2" H 7278 10501 50  0000 L CNN
-F 1 "Electrode" H 7278 10410 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 10600 50  0001 C CNN
-F 3 "" H 7150 10600 50  0001 C CNN
-	1    7150 10600
+P 7350 10750
+F 0 "E2" H 7478 10651 50  0000 L CNN
+F 1 "Electrode" H 7478 10560 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 10750 50  0001 C CNN
+F 3 "" H 7350 10750 50  0001 C CNN
+	1    7350 10750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Custom_Sensor_Touch:Electrode E1
 U 1 1 62DA4460
-P 7150 10150
-F 0 "E1" H 7278 10051 50  0000 L CNN
-F 1 "Electrode" H 7278 9960 50  0000 L CNN
-F 2 "Custom_Electrode:Circle_10mm" H 7150 10150 50  0001 C CNN
-F 3 "" H 7150 10150 50  0001 C CNN
-	1    7150 10150
+P 7350 10300
+F 0 "E1" H 7478 10201 50  0000 L CNN
+F 1 "Electrode" H 7478 10110 50  0000 L CNN
+F 2 "Custom_Electrode:Circle_10mm" H 7350 10300 50  0001 C CNN
+F 3 "" H 7350 10300 50  0001 C CNN
+	1    7350 10300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2934,473 +2746,529 @@ F 3 "~" H 4950 10900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe1
 U 1 1 63A26DCA
 P 7050 10450
-F 0 "JPe?" H 7050 10655 50  0000 C CNN
+F 0 "JPe1" H 7050 10655 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 10564 50  0000 C CNN
-F 2 "" H 7050 10450 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 10450 50  0001 C CNN
 F 3 "~" H 7050 10450 50  0001 C CNN
 	1    7050 10450
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe2
 U 1 1 63A26DD0
 P 7050 10900
-F 0 "JPe?" H 7050 11105 50  0000 C CNN
+F 0 "JPe2" H 7050 11105 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 11014 50  0000 C CNN
-F 2 "" H 7050 10900 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 10900 50  0001 C CNN
 F 3 "~" H 7050 10900 50  0001 C CNN
 	1    7050 10900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe3
 U 1 1 63A26DD6
 P 7050 11350
-F 0 "JPe?" H 7050 11555 50  0000 C CNN
+F 0 "JPe3" H 7050 11555 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 11464 50  0000 C CNN
-F 2 "" H 7050 11350 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 11350 50  0001 C CNN
 F 3 "~" H 7050 11350 50  0001 C CNN
 	1    7050 11350
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe4
 U 1 1 63A26DDC
 P 7050 11800
-F 0 "JPe?" H 7050 12005 50  0000 C CNN
+F 0 "JPe4" H 7050 12005 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 11914 50  0000 C CNN
-F 2 "" H 7050 11800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 11800 50  0001 C CNN
 F 3 "~" H 7050 11800 50  0001 C CNN
 	1    7050 11800
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe5
 U 1 1 63A26DE2
 P 7050 12250
-F 0 "JPe?" H 7050 12455 50  0000 C CNN
+F 0 "JPe5" H 7050 12455 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 12364 50  0000 C CNN
-F 2 "" H 7050 12250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 12250 50  0001 C CNN
 F 3 "~" H 7050 12250 50  0001 C CNN
 	1    7050 12250
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe6
 U 1 1 63A26DE8
 P 7050 12750
-F 0 "JPe?" H 7050 12955 50  0000 C CNN
+F 0 "JPe6" H 7050 12955 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 12864 50  0000 C CNN
-F 2 "" H 7050 12750 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 12750 50  0001 C CNN
 F 3 "~" H 7050 12750 50  0001 C CNN
 	1    7050 12750
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe7
 U 1 1 63A26DEE
 P 7050 13200
-F 0 "JPe?" H 7050 13405 50  0000 C CNN
+F 0 "JPe7" H 7050 13405 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 13314 50  0000 C CNN
-F 2 "" H 7050 13200 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 13200 50  0001 C CNN
 F 3 "~" H 7050 13200 50  0001 C CNN
 	1    7050 13200
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe8
 U 1 1 63A26DF4
 P 7050 13650
-F 0 "JPe?" H 7050 13855 50  0000 C CNN
+F 0 "JPe8" H 7050 13855 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 13764 50  0000 C CNN
-F 2 "" H 7050 13650 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 13650 50  0001 C CNN
 F 3 "~" H 7050 13650 50  0001 C CNN
 	1    7050 13650
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe9
 U 1 1 63A26DFA
 P 7050 14100
-F 0 "JPe?" H 7050 14305 50  0000 C CNN
+F 0 "JPe9" H 7050 14305 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 14214 50  0000 C CNN
-F 2 "" H 7050 14100 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 14100 50  0001 C CNN
 F 3 "~" H 7050 14100 50  0001 C CNN
 	1    7050 14100
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe10
 U 1 1 63A26E00
 P 7050 14600
-F 0 "JPe?" H 7050 14805 50  0000 C CNN
+F 0 "JPe10" H 7050 14805 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 14714 50  0000 C CNN
-F 2 "" H 7050 14600 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 14600 50  0001 C CNN
 F 3 "~" H 7050 14600 50  0001 C CNN
 	1    7050 14600
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe11
 U 1 1 63A73BC6
 P 7050 15550
-F 0 "JPe?" H 7050 15755 50  0000 C CNN
+F 0 "JPe11" H 7050 15755 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 15664 50  0000 C CNN
-F 2 "" H 7050 15550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 15550 50  0001 C CNN
 F 3 "~" H 7050 15550 50  0001 C CNN
 	1    7050 15550
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe12
 U 1 1 63A73BCC
 P 7050 16000
-F 0 "JPe?" H 7050 16205 50  0000 C CNN
+F 0 "JPe12" H 7050 16205 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 16114 50  0000 C CNN
-F 2 "" H 7050 16000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 16000 50  0001 C CNN
 F 3 "~" H 7050 16000 50  0001 C CNN
 	1    7050 16000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe13
 U 1 1 63A73BD2
 P 7050 16450
-F 0 "JPe?" H 7050 16655 50  0000 C CNN
+F 0 "JPe13" H 7050 16655 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 16564 50  0000 C CNN
-F 2 "" H 7050 16450 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 16450 50  0001 C CNN
 F 3 "~" H 7050 16450 50  0001 C CNN
 	1    7050 16450
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe14
 U 1 1 63A73BD8
 P 7050 16900
-F 0 "JPe?" H 7050 17105 50  0000 C CNN
+F 0 "JPe14" H 7050 17105 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 17014 50  0000 C CNN
-F 2 "" H 7050 16900 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 16900 50  0001 C CNN
 F 3 "~" H 7050 16900 50  0001 C CNN
 	1    7050 16900
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe15
 U 1 1 63A73BDE
 P 7050 17350
-F 0 "JPe?" H 7050 17555 50  0000 C CNN
+F 0 "JPe15" H 7050 17555 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 17464 50  0000 C CNN
-F 2 "" H 7050 17350 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 17350 50  0001 C CNN
 F 3 "~" H 7050 17350 50  0001 C CNN
 	1    7050 17350
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe16
 U 1 1 63A73BE4
 P 7050 17850
-F 0 "JPe?" H 7050 18055 50  0000 C CNN
+F 0 "JPe16" H 7050 18055 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 17964 50  0000 C CNN
-F 2 "" H 7050 17850 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 17850 50  0001 C CNN
 F 3 "~" H 7050 17850 50  0001 C CNN
 	1    7050 17850
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe17
 U 1 1 63A73BEA
 P 7050 18300
-F 0 "JPe?" H 7050 18505 50  0000 C CNN
+F 0 "JPe17" H 7050 18505 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 18414 50  0000 C CNN
-F 2 "" H 7050 18300 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 18300 50  0001 C CNN
 F 3 "~" H 7050 18300 50  0001 C CNN
 	1    7050 18300
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe18
 U 1 1 63A73BF0
 P 7050 18750
-F 0 "JPe?" H 7050 18955 50  0000 C CNN
+F 0 "JPe18" H 7050 18955 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 18864 50  0000 C CNN
-F 2 "" H 7050 18750 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 18750 50  0001 C CNN
 F 3 "~" H 7050 18750 50  0001 C CNN
 	1    7050 18750
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe19
 U 1 1 63A73BF6
 P 7050 19200
-F 0 "JPe?" H 7050 19405 50  0000 C CNN
+F 0 "JPe19" H 7050 19405 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 19314 50  0000 C CNN
-F 2 "" H 7050 19200 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 19200 50  0001 C CNN
 F 3 "~" H 7050 19200 50  0001 C CNN
 	1    7050 19200
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe20
 U 1 1 63A73BFC
 P 7050 19700
-F 0 "JPe?" H 7050 19905 50  0000 C CNN
+F 0 "JPe20" H 7050 19905 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 19814 50  0000 C CNN
-F 2 "" H 7050 19700 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 19700 50  0001 C CNN
 F 3 "~" H 7050 19700 50  0001 C CNN
 	1    7050 19700
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe21
 U 1 1 63A9F1CD
 P 7050 20800
-F 0 "JPe?" H 7050 21005 50  0000 C CNN
+F 0 "JPe21" H 7050 21005 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 20914 50  0000 C CNN
-F 2 "" H 7050 20800 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 20800 50  0001 C CNN
 F 3 "~" H 7050 20800 50  0001 C CNN
 	1    7050 20800
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe22
 U 1 1 63A9F1D3
 P 7050 21250
-F 0 "JPe?" H 7050 21455 50  0000 C CNN
+F 0 "JPe22" H 7050 21455 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 21364 50  0000 C CNN
-F 2 "" H 7050 21250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 21250 50  0001 C CNN
 F 3 "~" H 7050 21250 50  0001 C CNN
 	1    7050 21250
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe23
 U 1 1 63A9F1D9
 P 7050 21700
-F 0 "JPe?" H 7050 21905 50  0000 C CNN
+F 0 "JPe23" H 7050 21905 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 21814 50  0000 C CNN
-F 2 "" H 7050 21700 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 21700 50  0001 C CNN
 F 3 "~" H 7050 21700 50  0001 C CNN
 	1    7050 21700
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe24
 U 1 1 63A9F1DF
 P 7050 22150
-F 0 "JPe?" H 7050 22355 50  0000 C CNN
+F 0 "JPe24" H 7050 22355 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 22264 50  0000 C CNN
-F 2 "" H 7050 22150 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 22150 50  0001 C CNN
 F 3 "~" H 7050 22150 50  0001 C CNN
 	1    7050 22150
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe25
 U 1 1 63A9F1E5
 P 7050 22600
-F 0 "JPe?" H 7050 22805 50  0000 C CNN
+F 0 "JPe25" H 7050 22805 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 22714 50  0000 C CNN
-F 2 "" H 7050 22600 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 22600 50  0001 C CNN
 F 3 "~" H 7050 22600 50  0001 C CNN
 	1    7050 22600
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe26
 U 1 1 63A9F1EB
 P 7050 23100
-F 0 "JPe?" H 7050 23305 50  0000 C CNN
+F 0 "JPe26" H 7050 23305 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 23214 50  0000 C CNN
-F 2 "" H 7050 23100 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 23100 50  0001 C CNN
 F 3 "~" H 7050 23100 50  0001 C CNN
 	1    7050 23100
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe27
 U 1 1 63A9F1F1
 P 7050 23550
-F 0 "JPe?" H 7050 23755 50  0000 C CNN
+F 0 "JPe27" H 7050 23755 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 23664 50  0000 C CNN
-F 2 "" H 7050 23550 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 23550 50  0001 C CNN
 F 3 "~" H 7050 23550 50  0001 C CNN
 	1    7050 23550
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe28
 U 1 1 63A9F1F7
 P 7050 24000
-F 0 "JPe?" H 7050 24205 50  0000 C CNN
+F 0 "JPe28" H 7050 24205 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 24114 50  0000 C CNN
-F 2 "" H 7050 24000 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 24000 50  0001 C CNN
 F 3 "~" H 7050 24000 50  0001 C CNN
 	1    7050 24000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe29
 U 1 1 63A9F1FD
 P 7050 24450
-F 0 "JPe?" H 7050 24655 50  0000 C CNN
+F 0 "JPe29" H 7050 24655 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 24564 50  0000 C CNN
-F 2 "" H 7050 24450 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 24450 50  0001 C CNN
 F 3 "~" H 7050 24450 50  0001 C CNN
 	1    7050 24450
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPe?
+L Jumper:SolderJumper_3_Open JPe30
 U 1 1 63A9F203
 P 7050 24950
-F 0 "JPe?" H 7050 25155 50  0000 C CNN
+F 0 "JPe30" H 7050 25155 50  0000 C CNN
 F 1 "SolderJumper_3_Open" H 7050 25064 50  0000 C CNN
-F 2 "" H 7050 24950 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7050 24950 50  0001 C CNN
 F 3 "~" H 7050 24950 50  0001 C CNN
 	1    7050 24950
 	-1   0    0    1   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPmosi?
+L Jumper:SolderJumper_3_Open JPmosi3
 U 1 1 63AC1546
 P 1050 22050
-F 0 "JPmosi?" V 1050 22118 50  0000 L CNN
+F 0 "JPmosi3" V 1050 22118 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 1095 22118 50  0001 L CNN
-F 2 "" H 1050 22050 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1050 22050 50  0001 C CNN
 F 3 "~" H 1050 22050 50  0001 C CNN
 	1    1050 22050
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPmiso?
+L Jumper:SolderJumper_3_Open JPmiso3
 U 1 1 63BADF07
 P 1450 22050
-F 0 "JPmiso?" V 1450 22118 50  0000 L CNN
+F 0 "JPmiso3" V 1450 22118 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 1495 22118 50  0001 L CNN
-F 2 "" H 1450 22050 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1450 22050 50  0001 C CNN
 F 3 "~" H 1450 22050 50  0001 C CNN
 	1    1450 22050
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPsck?
+L Jumper:SolderJumper_3_Open JPsck3
 U 1 1 63BAE7E7
 P 1850 22050
-F 0 "JPsck?" V 1850 22118 50  0000 L CNN
+F 0 "JPsck3" V 1850 22118 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 1895 22118 50  0001 L CNN
-F 2 "" H 1850 22050 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1850 22050 50  0001 C CNN
 F 3 "~" H 1850 22050 50  0001 C CNN
 	1    1850 22050
 	0    1    1    0   
 $EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JPch1
-U 1 1 63BD1C06
-P 4500 1850
-F 0 "JPch1" V 4500 1918 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 4545 1918 50  0001 L CNN
-F 2 "" H 4500 1850 50  0001 C CNN
-F 3 "~" H 4500 1850 50  0001 C CNN
-	1    4500 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JPch2
-U 1 1 63BD3D4A
-P 4900 1850
-F 0 "JPch2" V 4900 1918 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 4945 1918 50  0001 L CNN
-F 2 "" H 4900 1850 50  0001 C CNN
-F 3 "~" H 4900 1850 50  0001 C CNN
-	1    4900 1850
-	0    1    1    0   
-$EndComp
-Text Label 4350 1850 3    50   ~ 0
+Text Label 4350 1900 3    50   ~ 0
 Change1
 Wire Wire Line
-	4500 1650 4900 1650
+	4500 1700 4900 1700
 $Comp
-L Jumper:SolderJumper_3_Open JPch3
-U 1 1 63BD4709
-P 5300 1850
-F 0 "JPch3" V 5300 1918 50  0000 L CNN
-F 1 "SolderJumper_3_Open" V 5345 1918 50  0001 L CNN
-F 2 "" H 5300 1850 50  0001 C CNN
-F 3 "~" H 5300 1850 50  0001 C CNN
-	1    5300 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Open JPmosi?
+L Jumper:SolderJumper_3_Open JPmosi2
 U 1 1 63CF2156
 P 1050 16700
-F 0 "JPmosi?" V 1050 16768 50  0000 L CNN
+F 0 "JPmosi2" V 1050 16768 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 1095 16768 50  0001 L CNN
-F 2 "" H 1050 16700 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1050 16700 50  0001 C CNN
 F 3 "~" H 1050 16700 50  0001 C CNN
 	1    1050 16700
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPmiso?
+L Jumper:SolderJumper_3_Open JPmiso2
 U 1 1 63CF215C
 P 1450 16700
-F 0 "JPmiso?" V 1450 16768 50  0000 L CNN
+F 0 "JPmiso2" V 1450 16768 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 1495 16768 50  0001 L CNN
-F 2 "" H 1450 16700 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1450 16700 50  0001 C CNN
 F 3 "~" H 1450 16700 50  0001 C CNN
 	1    1450 16700
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPsck?
+L Jumper:SolderJumper_3_Open JPsck2
 U 1 1 63CF2162
 P 1850 16700
-F 0 "JPsck?" V 1850 16768 50  0000 L CNN
+F 0 "JPsck2" V 1850 16768 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 1895 16768 50  0001 L CNN
-F 2 "" H 1850 16700 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1850 16700 50  0001 C CNN
 F 3 "~" H 1850 16700 50  0001 C CNN
 	1    1850 16700
 	0    1    1    0   
 $EndComp
-Text Label 1700 11300 2    50   ~ 0
+Text Label 1850 11100 2    50   ~ 0
 C_SCK
-Text Label 1300 11300 2    50   ~ 0
+Text Label 1450 11100 2    50   ~ 0
 C_MISO
 $Comp
-L Jumper:SolderJumper_3_Open JPmosi?
+L Jumper:SolderJumper_3_Open JPmosi1
 U 1 1 63D5B0A5
 P 1050 11300
-F 0 "JPmosi?" V 1050 11368 50  0000 L CNN
+F 0 "JPmosi1" V 1050 11368 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 1095 11368 50  0001 L CNN
-F 2 "" H 1050 11300 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1050 11300 50  0001 C CNN
 F 3 "~" H 1050 11300 50  0001 C CNN
 	1    1050 11300
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPmiso?
+L Jumper:SolderJumper_3_Open JPmiso1
 U 1 1 63D5B0AB
 P 1450 11300
-F 0 "JPmiso?" V 1450 11368 50  0000 L CNN
+F 0 "JPmiso1" V 1450 11368 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 1495 11368 50  0001 L CNN
-F 2 "" H 1450 11300 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1450 11300 50  0001 C CNN
 F 3 "~" H 1450 11300 50  0001 C CNN
 	1    1450 11300
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JPsck?
+L Jumper:SolderJumper_3_Open JPsck1
 U 1 1 63D5B0B1
 P 1850 11300
-F 0 "JPsck?" V 1850 11368 50  0000 L CNN
+F 0 "JPsck1" V 1850 11368 50  0000 L CNN
 F 1 "SolderJumper_3_Open" V 1895 11368 50  0001 L CNN
-F 2 "" H 1850 11300 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1850 11300 50  0001 C CNN
 F 3 "~" H 1850 11300 50  0001 C CNN
 	1    1850 11300
 	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JPch3
+U 1 1 63BD4709
+P 5300 1900
+F 0 "JPch3" V 5300 1968 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 5345 1968 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 5300 1900 50  0001 C CNN
+F 3 "~" H 5300 1900 50  0001 C CNN
+	1    5300 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JPch2
+U 1 1 63BD3D4A
+P 4900 1900
+F 0 "JPch2" V 4900 1968 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 4945 1968 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 4900 1900 50  0001 C CNN
+F 3 "~" H 4900 1900 50  0001 C CNN
+	1    4900 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JPch1
+U 1 1 63BD1C06
+P 4500 1900
+F 0 "JPch1" V 4500 1968 50  0000 L CNN
+F 1 "SolderJumper_3_Open" V 4545 1968 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 4500 1900 50  0001 C CNN
+F 3 "~" H 4500 1900 50  0001 C CNN
+	1    4500 1900
+	0    1    1    0   
+$EndComp
+$Sheet
+S 3700 4800 900  3300
+U 622D4548
+F0 "5_to_32_decoder" 50
+F1 "5_to_32_decoder_74hc138.sch" 50
+F2 "VCC" I L 3700 4900 50 
+F3 "GND" I L 3700 5500 50 
+F4 "A4" I L 3700 5400 50 
+F5 "A3" I L 3700 5300 50 
+F6 "A2" I L 3700 5200 50 
+F7 "A1" I L 3700 5100 50 
+F8 "A0" I L 3700 5000 50 
+F9 "~Y0" I R 4600 4900 50 
+F10 "~Y1" I R 4600 5000 50 
+F11 "~Y2" I R 4600 5100 50 
+F12 "~Y3" I R 4600 5200 50 
+F13 "~Y4" I R 4600 5300 50 
+F14 "~Y5" I R 4600 5400 50 
+F15 "~Y6" I R 4600 5500 50 
+F16 "~Y7" I R 4600 5600 50 
+F17 "~Y8" I R 4600 5700 50 
+F18 "~Y9" I R 4600 5800 50 
+F19 "~Y10" I R 4600 5900 50 
+F20 "~Y11" I R 4600 6000 50 
+F21 "~Y12" I R 4600 6100 50 
+F22 "~Y13" I R 4600 6200 50 
+F23 "~Y14" I R 4600 6300 50 
+F24 "~Y15" I R 4600 6400 50 
+F25 "~Y16" I R 4600 6500 50 
+F26 "~Y17" I R 4600 6600 50 
+F27 "~Y18" I R 4600 6700 50 
+F28 "~Y19" I R 4600 6800 50 
+F29 "~Y20" I R 4600 6900 50 
+F30 "~Y21" I R 4600 7000 50 
+F31 "~Y22" I R 4600 7100 50 
+F32 "~Y23" I R 4600 7200 50 
+F33 "~Y24" I R 4600 7300 50 
+F34 "~Y25" I R 4600 7400 50 
+F35 "~Y26" I R 4600 7500 50 
+F36 "~Y27" I R 4600 7600 50 
+F37 "~Y28" I R 4600 7700 50 
+F38 "~Y29" I R 4600 7800 50 
+F39 "~Y30" I R 4600 7900 50 
+F40 "~Y31" I R 4600 8000 50 
+$EndSheet
+$Comp
+L Connector_Generic:Conn_01x32 Jdecoder_output1
+U 1 1 642D830F
+P 4800 6400
+F 0 "Jdecoder_output1" H 4880 6392 50  0000 L CNN
+F 1 "Conn_01x32" H 4880 6301 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x32_P2.54mm_Vertical" H 4800 6400 50  0001 C CNN
+F 3 "~" H 4800 6400 50  0001 C CNN
+	1    4800 6400
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
