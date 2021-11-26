@@ -178,42 +178,6 @@ Connection ~ 3000 3300
 Text Notes 650  750  0    50   ~ 0
 Power Circuit\ncredits to Phil's Lab
 $Comp
-L Device:LED_Small D?
-U 1 1 61604297
-P 9150 5100
-AR Path="/615DF516/61604297" Ref="D?"  Part="1" 
-AR Path="/615EFEC7/61604297" Ref="D?"  Part="1" 
-AR Path="/61833101/61604297" Ref="D3"  Part="1" 
-F 0 "D3" V 9196 5030 50  0000 R CNN
-F 1 "YELLOW" V 9105 5030 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 9150 5100 50  0001 C CNN
-F 3 "~" V 9150 5100 50  0001 C CNN
-F 4 "C2286" H 9150 5100 50  0001 C CNN "LCSC Part #"
-	1    9150 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 6160429E
-P 9150 5400
-AR Path="/615DF516/6160429E" Ref="R?"  Part="1" 
-AR Path="/615EFEC7/6160429E" Ref="R?"  Part="1" 
-AR Path="/61833101/6160429E" Ref="R6"  Part="1" 
-F 0 "R6" H 9209 5446 50  0000 L CNN
-F 1 "1k5" H 9209 5355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9150 5400 50  0001 C CNN
-F 3 "~" H 9150 5400 50  0001 C CNN
-F 4 "C22843" H 9150 5400 50  0001 C CNN "LCSC Part #"
-	1    9150 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 5200 9150 5300
-Wire Wire Line
-	9150 5500 9150 5600
-Wire Wire Line
-	9150 4900 9150 5000
-$Comp
 L power:PWR_FLAG #FLG?
 U 1 1 616042B9
 P 4500 3300
@@ -369,8 +333,6 @@ Text HLabel 8850 3550 1    50   Input ~ 0
 3V3
 Text HLabel 7550 4600 1    50   Input ~ 0
 3V3
-Text HLabel 9150 4900 1    50   Input ~ 0
-3V3
 Text HLabel 4200 4950 3    50   Input ~ 0
 GND
 Text HLabel 5850 4400 3    50   Input ~ 0
@@ -384,8 +346,6 @@ GND
 Text HLabel 8500 3950 3    50   Input ~ 0
 GND
 Text HLabel 8850 3950 3    50   Input ~ 0
-GND
-Text HLabel 9150 5600 3    50   Input ~ 0
 GND
 Text HLabel 7550 5600 3    50   Input ~ 0
 GND
@@ -419,7 +379,7 @@ U 1 1 61834D6E
 P 5850 3650
 F 0 "U4" H 5850 3715 50  0000 C CNN
 F 1 "MP2359" H 5850 3624 50  0000 C CNN
-F 2 "" H 5850 3650 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 5850 3650 50  0001 C CNN
 F 3 "" H 5850 3650 50  0001 C CNN
 	1    5850 3650
 	1    0    0    -1  

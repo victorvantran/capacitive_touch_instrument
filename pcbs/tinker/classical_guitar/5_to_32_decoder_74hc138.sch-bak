@@ -18,10 +18,10 @@ L Custom_74xx:74HC138 Decoder?
 U 1 1 6234DB7E
 P 5500 5100
 AR Path="/6234DB7E" Ref="Decoder?"  Part="1" 
-AR Path="/622D4548/6234DB7E" Ref="3_to_8_decoder?"  Part="1" 
-F 0 "3_to_8_decoder?" H 5500 5867 50  0000 C CNN
+AR Path="/622D4548/6234DB7E" Ref="3_to_8_decoder3"  Part="1" 
+F 0 "3_to_8_decoder3" H 5500 5867 50  0000 C CNN
 F 1 "74HC138" H 5500 5776 50  0000 C CNN
-F 2 "" H 5500 5100 50  0001 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5500 5100 50  0001 C CNN
 F 3 "" H 5500 5100 50  0001 L BNN
 	1    5500 5100
 	1    0    0    -1  
@@ -31,10 +31,10 @@ L Custom_74xx:74HC138 Decoder?
 U 1 1 6234DB84
 P 5500 6550
 AR Path="/6234DB84" Ref="Decoder?"  Part="1" 
-AR Path="/622D4548/6234DB84" Ref="3_to_8_decoder?"  Part="1" 
-F 0 "3_to_8_decoder?" H 5500 7317 50  0000 C CNN
+AR Path="/622D4548/6234DB84" Ref="3_to_8_decoder4"  Part="1" 
+F 0 "3_to_8_decoder4" H 5500 7317 50  0000 C CNN
 F 1 "74HC138" H 5500 7226 50  0000 C CNN
-F 2 "" H 5500 6550 50  0001 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5500 6550 50  0001 C CNN
 F 3 "" H 5500 6550 50  0001 L BNN
 	1    5500 6550
 	1    0    0    -1  
@@ -44,10 +44,10 @@ L Custom_74xx:74HC138 Decoder?
 U 1 1 6234DB8A
 P 5500 3650
 AR Path="/6234DB8A" Ref="Decoder?"  Part="1" 
-AR Path="/622D4548/6234DB8A" Ref="3_to_8_decoder?"  Part="1" 
-F 0 "3_to_8_decoder?" H 5500 4417 50  0000 C CNN
+AR Path="/622D4548/6234DB8A" Ref="3_to_8_decoder2"  Part="1" 
+F 0 "3_to_8_decoder2" H 5500 4417 50  0000 C CNN
 F 1 "74HC138" H 5500 4326 50  0000 C CNN
-F 2 "" H 5500 3650 50  0001 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5500 3650 50  0001 C CNN
 F 3 "" H 5500 3650 50  0001 L BNN
 	1    5500 3650
 	1    0    0    -1  
@@ -119,10 +119,10 @@ L Custom_74xx:74HC138 Decoder?
 U 1 1 6234DC26
 P 5500 2200
 AR Path="/6234DC26" Ref="Decoder?"  Part="1" 
-AR Path="/622D4548/6234DC26" Ref="3_to_8_decoder?"  Part="1" 
-F 0 "3_to_8_decoder?" H 5500 2967 50  0000 C CNN
+AR Path="/622D4548/6234DC26" Ref="3_to_8_decoder1"  Part="1" 
+F 0 "3_to_8_decoder1" H 5500 2967 50  0000 C CNN
 F 1 "74HC138" H 5500 2876 50  0000 C CNN
-F 2 "" H 5500 2200 50  0001 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5500 2200 50  0001 C CNN
 F 3 "" H 5500 2200 50  0001 L BNN
 	1    5500 2200
 	1    0    0    -1  
@@ -192,10 +192,10 @@ L Custom_74xx:MC74HC1G04 I?
 U 1 1 6234DB90
 P 4500 6350
 AR Path="/6234DB90" Ref="I?"  Part="1" 
-AR Path="/622D4548/6234DB90" Ref="I?"  Part="1" 
-F 0 "I?" H 4500 6415 50  0000 C CNN
+AR Path="/622D4548/6234DB90" Ref="I1"  Part="1" 
+F 0 "I1" H 4500 6415 50  0000 C CNN
 F 1 "MC74HC1G04" H 4500 6324 50  0000 C CNN
-F 2 "" H 4500 6350 50  0001 C CNN
+F 2 "Package_SO:SC-74-6_1.5x2.9mm_P0.95mm" H 4500 6350 50  0001 C CNN
 F 3 "" H 4500 6350 50  0001 C CNN
 	1    4500 6350
 	1    0    0    -1  
