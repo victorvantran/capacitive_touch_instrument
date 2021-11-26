@@ -3155,21 +3155,21 @@ F 3 "~" H 4500 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Custom_74xx:CD74HC154ME4 Udecoder4_to_16?
+L Custom_74xx:CD74HC154ME4 Udecoder4_to_161
 U 1 1 6445F660
 P 3950 6200
-F 0 "Udecoder4_to_16?" H 3950 7470 50  0000 C CNN
+F 0 "Udecoder4_to_161" H 3950 7470 50  0000 C CNN
 F 1 "CD74HC154ME4" H 3950 7379 50  0000 C CNN
-F 2 "SOIC127P1030X265-24N" H 3550 7350 50  0001 L BNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 3550 7350 50  0001 L BNN
 F 3 "" H 3950 6200 50  0001 L BNN
 	1    3950 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR021
 U 1 1 644A4F53
 P 3250 6000
-F 0 "#PWR?" H 3250 5750 50  0001 C CNN
+F 0 "#PWR021" H 3250 5750 50  0001 C CNN
 F 1 "GND" H 3255 5827 50  0000 C CNN
 F 2 "" H 3250 6000 50  0001 C CNN
 F 3 "" H 3250 6000 50  0001 C CNN
@@ -3182,10 +3182,10 @@ Connection ~ 3250 5900
 Wire Wire Line
 	3250 5900 3250 6000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR023
 U 1 1 644EA8EE
 P 4650 7300
-F 0 "#PWR?" H 4650 7050 50  0001 C CNN
+F 0 "#PWR023" H 4650 7050 50  0001 C CNN
 F 1 "GND" H 4655 7127 50  0000 C CNN
 F 2 "" H 4650 7300 50  0001 C CNN
 F 3 "" H 4650 7300 50  0001 C CNN
@@ -3195,10 +3195,10 @@ $EndComp
 Wire Wire Line
 	4650 7200 4650 7300
 $Comp
-L power:VDD #PWR?
+L power:VDD #PWR022
 U 1 1 6450E3BE
 P 4650 5100
-F 0 "#PWR?" H 4650 4950 50  0001 C CNN
+F 0 "#PWR022" H 4650 4950 50  0001 C CNN
 F 1 "VDD" H 4665 5273 50  0000 C CNN
 F 2 "" H 4650 5100 50  0001 C CNN
 F 3 "" H 4650 5100 50  0001 C CNN
@@ -3208,23 +3208,23 @@ $EndComp
 Wire Wire Line
 	4650 5100 4650 5200
 $Comp
-L Connector_Generic:Conn_01x16 Jdecoder4_to_16_output?
+L Connector_Generic:Conn_01x16 Jdecoder4_to_16_output1
 U 1 1 6453313E
 P 4850 6100
-F 0 "Jdecoder4_to_16_output?" H 4930 6092 50  0000 L CNN
+F 0 "Jdecoder4_to_16_output1" H 4930 6092 50  0000 L CNN
 F 1 "Conn_01x16" H 4930 6001 50  0000 L CNN
-F 2 "" H 4850 6100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 4850 6100 50  0001 C CNN
 F 3 "~" H 4850 6100 50  0001 C CNN
 	1    4850 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male Jdecoder4_to_16_input?
+L Connector:Conn_01x04_Male Jdecoder4_to_16_input1
 U 1 1 6455E6EE
 P 3050 5500
-F 0 "Jdecoder4_to_16_input?" H 3158 5781 50  0000 C CNN
+F 0 "Jdecoder4_to_16_input1" H 3158 5781 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 3158 5690 50  0000 C CNN
-F 2 "" H 3050 5500 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 3050 5500 50  0001 C CNN
 F 3 "~" H 3050 5500 50  0001 C CNN
 	1    3050 5500
 	1    0    0    -1  
