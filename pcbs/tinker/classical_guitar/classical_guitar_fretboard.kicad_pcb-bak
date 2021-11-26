@@ -59,7 +59,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements FFFFF77F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -601,7 +601,7 @@
   )
 
   (module Package_SO:TSSOP-16_4.4x5mm_P0.65mm (layer F.Cu) (tedit 5E476F32) (tstamp 61A15931)
-    (at 50.05 50.825)
+    (at 100.725 156.75)
     (descr "TSSOP, 16 Pin (JEDEC MO-153 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSSOP SO")
     (path /622D4548/6234DC26)
@@ -668,7 +668,7 @@
   )
 
   (module Package_SO:TSSOP-16_4.4x5mm_P0.65mm (layer F.Cu) (tedit 5E476F32) (tstamp 61A15953)
-    (at 49.45 60.025)
+    (at 100.125 165.95)
     (descr "TSSOP, 16 Pin (JEDEC MO-153 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSSOP SO")
     (path /622D4548/6234DB8A)
@@ -735,7 +735,7 @@
   )
 
   (module Package_SO:TSSOP-16_4.4x5mm_P0.65mm (layer F.Cu) (tedit 5E476F32) (tstamp 61A15975)
-    (at 49.775 69.25)
+    (at 100.45 175.175)
     (descr "TSSOP, 16 Pin (JEDEC MO-153 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSSOP SO")
     (path /622D4548/6234DB7E)
@@ -802,7 +802,7 @@
   )
 
   (module Package_SO:TSSOP-16_4.4x5mm_P0.65mm (layer F.Cu) (tedit 5E476F32) (tstamp 61A15997)
-    (at 49.675 78.375)
+    (at 100.35 184.3)
     (descr "TSSOP, 16 Pin (JEDEC MO-153 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "TSSOP SO")
     (path /622D4548/6234DB84)
@@ -869,7 +869,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 61A159A8)
-    (at 209.470001 62.050001)
+    (at 51.395001 -238.724999)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /61833101/6160423B)
@@ -905,7 +905,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 61A159B9)
-    (at 214.650001 66.280001)
+    (at 56.575001 -234.494999)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /61833101/61604276)
@@ -941,7 +941,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 61A159CA)
-    (at 217.020001 55.300001)
+    (at 58.945001 -245.474999)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /61833101/6160424D)
@@ -977,7 +977,7 @@
   )
 
   (module Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 61A159DB)
-    (at 209.470001 65.400001)
+    (at 51.395001 -235.374999)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /61833101/616042CF)
@@ -1013,7 +1013,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder (layer F.Cu) (tedit 5F6BB22C) (tstamp 61A159EC)
-    (at -36.069999 -233.684999)
+    (at -54.144999 -233.534999)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /6188914E)
@@ -1049,7 +1049,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder (layer F.Cu) (tedit 5F6BB22C) (tstamp 61A159FD)
-    (at -31.469999 -227.624999)
+    (at -49.544999 -227.474999)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /61889BF2)
@@ -1085,7 +1085,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder (layer F.Cu) (tedit 5F6BB22C) (tstamp 61A15A0E)
-    (at -31.469999 -229.594999)
+    (at -49.544999 -229.444999)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /61E9EF41)
@@ -1121,7 +1121,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder (layer F.Cu) (tedit 5F6BB22C) (tstamp 61A15A1F)
-    (at -31.469999 -231.564999)
+    (at -49.544999 -231.414999)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /61EA008B)
@@ -1157,7 +1157,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder (layer F.Cu) (tedit 5F6BB22C) (tstamp 61A15A30)
-    (at -31.469999 -225.654999)
+    (at -49.544999 -225.504999)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /61EA2D3B)
@@ -1193,7 +1193,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder (layer F.Cu) (tedit 5F6BB22C) (tstamp 61A15A41)
-    (at -31.469999 -223.684999)
+    (at -49.544999 -223.534999)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /61EA2D41)
@@ -1265,7 +1265,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder (layer F.Cu) (tedit 5F68FEEF) (tstamp 61A15A63)
-    (at 45.425 146.075)
+    (at -83.724999 -175.694999)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /61F2AF37)
@@ -2309,7 +2309,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer F.Cu) (tedit 58645DC7) (tstamp 61A15C58)
-    (at 216.890001 58.650001)
+    (at 58.815001 -242.124999)
     (descr SOD-123)
     (tags SOD-123)
     (path /61833101/61604283)
@@ -2353,7 +2353,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer F.Cu) (tedit 58645DC7) (tstamp 61A15C71)
-    (at 222.900001 55.300001)
+    (at 64.825001 -245.474999)
     (descr SOD-123)
     (tags SOD-123)
     (path /61833101/61604254)
@@ -2695,7 +2695,7 @@
   )
 
   (module Custom_Electrode:Circle_10mm (layer F.Cu) (tedit 6147F0EC) (tstamp 61A15CED)
-    (at 417 42.05)
+    (at 404.7 39.4)
     (path /62DCDBE3)
     (fp_text reference E21 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2708,7 +2708,7 @@
   )
 
   (module Custom_Electrode:Circle_10mm (layer F.Cu) (tedit 6147F0EC) (tstamp 61A15CF2)
-    (at 416.425 55.05)
+    (at 404.125 52.4)
     (path /62DCDBDD)
     (fp_text reference E22 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2721,7 +2721,7 @@
   )
 
   (module Custom_Electrode:Circle_10mm (layer F.Cu) (tedit 6147F0EC) (tstamp 61A15CF7)
-    (at 417.9 68.6)
+    (at 405.6 65.95)
     (path /62DCDBD7)
     (fp_text reference E23 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2734,7 +2734,7 @@
   )
 
   (module Custom_Electrode:Circle_10mm (layer F.Cu) (tedit 6147F0EC) (tstamp 61A15CFC)
-    (at 417.475 83.175)
+    (at 405.175 80.525)
     (path /62DCDBD1)
     (fp_text reference E24 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2747,7 +2747,7 @@
   )
 
   (module Custom_Electrode:Circle_10mm (layer F.Cu) (tedit 6147F0EC) (tstamp 61A15D01)
-    (at 418.575 97.125)
+    (at 406.275 94.475)
     (path /62DCDBCB)
     (fp_text reference E25 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2760,7 +2760,7 @@
   )
 
   (module Custom_Electrode:Circle_10mm (layer F.Cu) (tedit 6147F0EC) (tstamp 61A15D06)
-    (at 418.025 111.775)
+    (at 405.725 109.125)
     (path /62DCDBBF)
     (fp_text reference E26 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2773,7 +2773,7 @@
   )
 
   (module Custom_Electrode:Circle_10mm (layer F.Cu) (tedit 6147F0EC) (tstamp 61A15D0B)
-    (at 418.5 124.975)
+    (at 406.2 122.325)
     (path /62DCDBB9)
     (fp_text reference E27 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2786,7 +2786,7 @@
   )
 
   (module Custom_Electrode:Circle_10mm (layer F.Cu) (tedit 6147F0EC) (tstamp 61A15D10)
-    (at 417.825 139.125)
+    (at 405.525 136.475)
     (path /62DCDBC5)
     (fp_text reference E28 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2799,7 +2799,7 @@
   )
 
   (module Custom_Electrode:Circle_10mm (layer F.Cu) (tedit 6147F0EC) (tstamp 61A15D15)
-    (at 418.225 152.125)
+    (at 405.925 149.475)
     (path /62DCDBB3)
     (fp_text reference E29 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2812,7 +2812,7 @@
   )
 
   (module Custom_Electrode:Circle_10mm (layer F.Cu) (tedit 6147F0EC) (tstamp 61A15D1A)
-    (at 418.1 166.1)
+    (at 405.8 163.45)
     (path /62DCDBAD)
     (fp_text reference E30 (at 0 0.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2825,7 +2825,7 @@
   )
 
   (module Fuse:Fuse_1206_3216Metric (layer F.Cu) (tedit 5F68FEF1) (tstamp 61A15D2B)
-    (at 222.570001 58.620001)
+    (at 64.495001 -242.154999)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags fuse)
     (path /61833101/6160421F)
@@ -2861,7 +2861,7 @@
   )
 
   (module Inductor_SMD:L_0805_2012Metric (layer F.Cu) (tedit 5F68FEF0) (tstamp 61A15D3C)
-    (at 220.600001 61.700001)
+    (at 62.525001 -239.074999)
     (descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags inductor)
     (path /61833101/61604234)
@@ -2897,7 +2897,7 @@
   )
 
   (module MountingHole:MountingHole_4.3mm_M4_Pad_Via (layer F.Cu) (tedit 56DDBFD7) (tstamp 61A15D4C)
-    (at 22.625 23.125)
+    (at 24.925 29.975)
     (descr "Mounting Hole 4.3mm, M4")
     (tags "mounting hole 4.3mm m4")
     (path /63072A87)
@@ -2934,7 +2934,7 @@
   )
 
   (module MountingHole:MountingHole_4.3mm_M4_Pad_Via (layer F.Cu) (tedit 56DDBFD7) (tstamp 61A15D5C)
-    (at 265.525 23.15)
+    (at 264.2 33.625)
     (descr "Mounting Hole 4.3mm, M4")
     (tags "mounting hole 4.3mm m4")
     (path /63073B65)
@@ -3045,7 +3045,7 @@
   )
 
   (module Package_SO:SC-74-6_1.5x2.9mm_P0.95mm (layer F.Cu) (tedit 5D9F72B0) (tstamp 61A15D94)
-    (at 41.2 77.225)
+    (at 91.875 183.15)
     (descr "SC-74, 6 Pin (https://www.nxp.com/docs/en/package-information/SOT457.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SC-74 SO")
     (path /622D4548/6234DB90)
@@ -3091,7 +3091,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 61A15DAC)
-    (at 29.2 102)
+    (at 29.4 79.475)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
     (path /61B59428)
@@ -3135,7 +3135,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 61A15DC4)
-    (at 28.35 128.025)
+    (at 28.55 105.5)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
     (path /61C72CCD)
@@ -3179,7 +3179,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 61A15DDC)
-    (at 29.375 151.4)
+    (at 29.575 128.875)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
     (path /61C929B0)
@@ -3223,7 +3223,7 @@
   )
 
   (module Connector_BarrelJack:BarrelJack_Horizontal (layer F.Cu) (tedit 5A1DBF6A) (tstamp 61A15DFF)
-    (at 206.775 19 270)
+    (at 67.05 20.875 270)
     (descr "DC Barrel Jack")
     (tags "Power Jack")
     (path /6243EC26)
@@ -3277,7 +3277,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 61A15E16)
-    (at 89.825 132.675)
+    (at -76.424999 -217.374999)
     (descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x03 2.54mm single row")
     (path /61AF7A25)
@@ -3319,7 +3319,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 61A15E2D)
-    (at 89.675 117.075)
+    (at -53.424999 -230.074999)
     (descr "Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x03 2.54mm single row")
     (path /61C1F591)
@@ -3361,7 +3361,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A420) (tstamp 61A15E46)
-    (at 27.35 58.4)
+    (at -50.174999 -244.824999)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (path /619CFDE7)
@@ -3407,7 +3407,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A424) (tstamp 61A15E7C)
-    (at 67.365 45.37)
+    (at 132.25 152.4)
     (descr "Through hole straight socket strip, 2x16, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x16 2.54mm double row")
     (path /61D5978D)
@@ -3509,7 +3509,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A425) (tstamp 61A15E9A)
-    (at 53.275 27.95 90)
+    (at 128.65 46.95 90)
     (descr "Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x10 2.54mm single row")
     (path /6190C94C)
@@ -3565,7 +3565,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A425) (tstamp 61A15EB8)
-    (at 92.775 28.2 90)
+    (at 168.15 47.2 90)
     (descr "Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x10 2.54mm single row")
     (path /61D0F0B4)
@@ -3621,7 +3621,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A425) (tstamp 61A15ED6)
-    (at 129.925 27.35 90)
+    (at 205.3 46.35 90)
     (descr "Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x10 2.54mm single row")
     (path /61F2ADD5)
@@ -5744,7 +5744,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 61A16248)
-    (at 246.625 33.25)
+    (at -1.224999 -219.684999)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
     (path /62667B26)
@@ -5947,7 +5947,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A434) (tstamp 61A1629E)
-    (at 89.725 145.575)
+    (at -71.824999 -217.374999)
     (descr "Through hole straight socket strip, 1x01, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x01 2.54mm single row")
     (path /61B3D00C)
@@ -5984,7 +5984,7 @@
   )
 
   (module Connector_USB:USB_Micro-B_Amphenol_10118194_Horizontal (layer F.Cu) (tedit 5F2142B6) (tstamp 61A162C7)
-    (at 225.4 9.275)
+    (at -35.724999 -181.194999)
     (descr "USB Micro-B receptacle, horizontal, SMD, 10118194, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf")
     (tags "USB Micro B horizontal SMD")
     (path /621C610A)
@@ -6057,7 +6057,7 @@
   )
 
   (module Inductor_SMD:L_Sunlord_MWSA0518_5.4x5.2mm (layer F.Cu) (tedit 5DB5FB51) (tstamp 61A162DC)
-    (at 207.2 53.625)
+    (at 52.165001 -243.774999)
     (descr "Inductor, Sunlord, MWSA0518, 5.4mmx5.2mm")
     (tags "inductor Sunlord smd")
     (path /61833101/616042D8)
@@ -6097,7 +6097,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 61A162F1)
-    (at 228.000001 55.900001)
+    (at 69.925001 -244.874999)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /61833101/61604227)
@@ -6138,7 +6138,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61A16302)
-    (at 224.880001 61.520001)
+    (at 66.805001 -239.254999)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61833101/6160431E)
@@ -6174,7 +6174,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61A16313)
-    (at 222.840001 64.330001)
+    (at 64.765001 -236.444999)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61833101/61604317)
@@ -6210,7 +6210,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61A16324)
-    (at 228.890001 59.430001)
+    (at 70.815001 -241.344999)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61833101/616042FA)
@@ -6246,7 +6246,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61A16335)
-    (at 218.830001 66.280001)
+    (at 60.755001 -234.494999)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61833101/616042F3)
@@ -6282,7 +6282,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61A16346)
-    (at 226.850001 64.030001)
+    (at 68.775001 -236.744999)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /61833101/616042EC)
@@ -7794,7 +7794,7 @@
   )
 
   (module Package_QFP:TQFP-32_7x7mm_P0.8mm (layer F.Cu) (tedit 5A02F146) (tstamp 61A16636)
-    (at 58.45 104.725)
+    (at 58.65 82.2)
     (descr "32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.8")
     (path /61842786)
@@ -7898,7 +7898,7 @@
   )
 
   (module Package_QFP:TQFP-32_7x7mm_P0.8mm (layer F.Cu) (tedit 5A02F146) (tstamp 61A1666D)
-    (at 58.025 130.35)
+    (at 58.225 107.825)
     (descr "32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.8")
     (path /61D0F133)
@@ -8002,7 +8002,7 @@
   )
 
   (module Package_QFP:TQFP-32_7x7mm_P0.8mm (layer F.Cu) (tedit 5A02F146) (tstamp 61A166A4)
-    (at 57.175 148.35)
+    (at 57.375 125.825)
     (descr "32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "QFP 0.8")
     (path /61F2AE82)
@@ -8106,7 +8106,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23-6_Handsoldering (layer F.Cu) (tedit 5A02FF57) (tstamp 61A166BA)
-    (at 215.400001 62.700001)
+    (at 57.325001 -238.074999)
     (descr "6-pin SOT-23 package, Handsoldering")
     (tags "SOT-23-6 Handsoldering")
     (path /61833101/61834D6E)
