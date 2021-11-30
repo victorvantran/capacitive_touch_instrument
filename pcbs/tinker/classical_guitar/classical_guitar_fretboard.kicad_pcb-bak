@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 1)
     (tracks 742)
     (zones 0)
     (modules 188)
@@ -7822,8 +7822,10 @@
     )
   )
 
-  (segment (start 97.15 132.4) (end 95.85 132.4) (width 0.25) (layer F.Cu) (net 1))
-  (segment (start 97.7 131.85) (end 97.15 132.4) (width 0.25) (layer F.Cu) (net 1))
+  (gr_text "Do not extend solid ground plane on any layer under the electrodes; will increase parasitic capitance; decrease in sensitivity\n\nThe interconnecting traces are touch sensitive and an extension to the electrode itself. " (at 172.325 -24.35) (layer F.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+
   (segment (start 85.6175 28.125) (end 85.525 28.0325) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 87.4 28.125) (end 85.6175 28.125) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 97.0675 30.525) (end 97.725 29.8675) (width 0.3) (layer F.Cu) (net 1))
@@ -7834,8 +7836,8 @@
   (segment (start 95.9 81.2) (end 97.1675 81.2) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 85.3175 130) (end 85.2 129.8825) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 87.35 130) (end 85.3175 130) (width 0.3) (layer F.Cu) (net 1))
-  (segment (start 96.985 130) (end 95.85 130) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 97.7 130.715) (end 96.985 130) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 97.15 132.4) (end 97.7 131.85) (width 0.3) (layer F.Cu) (net 1))
+  (segment (start 95.85 132.4) (end 97.15 132.4) (width 0.3) (layer F.Cu) (net 1))
   (segment (start 85.7675 28.925) (end 85.525 29.1675) (width 0.3) (layer F.Cu) (net 2))
   (segment (start 87.4 28.925) (end 85.7675 28.925) (width 0.3) (layer F.Cu) (net 2))
   (segment (start 97.1175 28.125) (end 97.725 28.7325) (width 0.3) (layer F.Cu) (net 2))
@@ -7846,6 +7848,8 @@
   (segment (start 95.9 78.8) (end 97.1175 78.8) (width 0.3) (layer F.Cu) (net 2))
   (segment (start 85.4175 130.8) (end 85.2 131.0175) (width 0.3) (layer F.Cu) (net 2))
   (segment (start 87.35 130.8) (end 85.4175 130.8) (width 0.3) (layer F.Cu) (net 2))
+  (segment (start 96.985 130) (end 97.7 130.715) (width 0.3) (layer F.Cu) (net 2))
+  (segment (start 95.85 130) (end 96.985 130) (width 0.3) (layer F.Cu) (net 2))
   (segment (start 56.125 39.4375) (end 56.35 39.2125) (width 0.75) (layer F.Cu) (net 3))
   (segment (start 56.125 41.775) (end 56.125 39.4375) (width 0.75) (layer F.Cu) (net 3))
   (segment (start 57.2 39.2125) (end 58.5625 37.85) (width 1) (layer F.Cu) (net 3))

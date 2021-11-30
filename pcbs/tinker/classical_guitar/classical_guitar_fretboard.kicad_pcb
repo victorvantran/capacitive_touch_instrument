@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 1)
     (tracks 742)
     (zones 0)
     (modules 188)
@@ -7820,6 +7820,10 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+  )
+
+  (gr_text "Do not extend solid ground plane on any layer under the electrodes; will increase parasitic capitance; decrease in sensitivity\n\nThe interconnecting traces are touch sensitive and an extension to the electrode itself. \n\nThe interconnecting traces should not run over ground or power planes where possible. This would desenitize the key." (at 172.325 -24.35) (layer F.Cu)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
   (segment (start 85.6175 28.125) (end 85.525 28.0325) (width 0.3) (layer F.Cu) (net 1))
