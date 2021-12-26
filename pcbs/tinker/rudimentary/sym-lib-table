@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Custom_Power)(type Legacy)(uri ${KIPRJMOD}/Custom_Power.lib)(options "")(descr ""))
+  (lib (name Custom_Sensor_Touch)(type Legacy)(uri ${KIPRJMOD}/Custom_Sensor_Touch.lib)(options "")(descr ""))
+)

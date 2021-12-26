@@ -3185,8 +3185,6 @@ F 3 "" H 3250 5300 50  0001 C CNN
 	1    3250 5300
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	8450 500  8450 25650
 $Comp
 L Connector:Conn_01x06_Male Jdecoder4_to_16_input1
 U 1 1 61C900AB
@@ -3204,9 +3202,56 @@ U 1 1 61A715CC
 P 3950 6200
 F 0 "Dec1" H 3950 7370 50  0000 C CNN
 F 1 "CD74HC4515M" H 3950 7279 50  0000 C CNN
-F 2 "" H 3550 7250 50  0001 L BNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 3550 7250 50  0001 L BNN
 F 3 "" H 3950 6200 50  0001 L BNN
 	1    3950 6200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8050 3150 8150 3150
+Connection ~ 8050 3150
+Wire Wire Line
+	7950 3150 8050 3150
+Wire Wire Line
+	8050 3050 8050 3150
+Wire Wire Line
+	8050 2750 8050 2850
+$Comp
+L power:VDD #PWR?
+U 1 1 61CCC8D6
+P 8050 2750
+F 0 "#PWR?" H 8050 2600 50  0001 C CNN
+F 1 "VDD" H 8065 2923 50  0000 C CNN
+F 2 "" H 8050 2750 50  0001 C CNN
+F 3 "" H 8050 2750 50  0001 C CNN
+	1    8050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small Rs?
+U 1 1 61CA982F
+P 8050 2950
+F 0 "Rs?" H 7991 2904 50  0000 R CNN
+F 1 "100k" H 7991 2995 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8050 2950 50  0001 C CNN
+F 3 "~" H 8050 2950 50  0001 C CNN
+	1    8050 2950
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	8450 500  8450 25650
+$Comp
+L Connector:Conn_01x04_Male Jcommon_sync?
+U 1 1 61D7A0B1
+P 8050 3350
+F 0 "Jcommon_sync?" V 8204 3062 50  0000 R CNN
+F 1 "Conn_01x04_Male" V 8113 3062 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 8050 3350 50  0001 C CNN
+F 3 "~" H 8050 3350 50  0001 C CNN
+	1    8050 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8150 3150 8250 3150
+Connection ~ 8150 3150
 $EndSCHEMATC
